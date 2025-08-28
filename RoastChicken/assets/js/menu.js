@@ -224,7 +224,7 @@ const menuItems = [
     name: "海苔蟹肉捲",
     href: "#",
     onclick: "return false;",
-    price: "150元",
+    price: "200元",
     description: "酥脆的海苔外皮包裹鮮美蟹肉，炸至金黃香氣迷人——每一口都令人停不下來的美味！",
     img: "assets/img/menu/a la carte/crispy-seaweed-crab-rolls.png",
     alt: "海苔蟹肉捲",
@@ -811,3 +811,4 @@ menuItems.forEach(item => {
   menuContainer.insertAdjacentHTML("beforeend", menuHTML);
 
 });
+
