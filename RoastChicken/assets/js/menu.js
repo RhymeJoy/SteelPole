@@ -46,7 +46,7 @@ const menuItems = [
     onclick: "return false;",
     price: "時價",
     description: "精選新鮮魚隻，搭配醬油與蔥段清蒸，完美保留魚肉鮮味與滑嫩口感。每一口都能感受到鮮美的自然風味，清爽又健康。(龍虎班目前一份500元)",
-    img: "assets/img/menu/a la carte/Steamed-fish.png",
+    img: "assets/img/menu/a la carte/steamed-fish.png",
     alt: "蒸魚",
     filter: "filter-dish"
   },
@@ -811,4 +811,5 @@ menuItems.forEach(item => {
   menuContainer.insertAdjacentHTML("beforeend", menuHTML);
 
 });
+
 
