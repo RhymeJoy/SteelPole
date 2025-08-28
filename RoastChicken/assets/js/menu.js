@@ -151,16 +151,6 @@ const menuItems = [
     filter: "filter-dish"
   },
   {
-    name: "海香菇燴青花",
-    href: "#",
-    onclick: "return false;",
-    price: "150元",
-    description: "海香菇與青花燴煮，醬汁鮮美，口感軟嫩清爽，是健康素食佳餚。",
-    img: "assets/img/menu/a la carte/sea-shiitake-broccoli.png",
-    alt: "海香菇燴青花",
-    filter: "filter-dish"
-  },
-  {
     name: "日本扇貝",
     href: "#",
     onclick: "return false;",
@@ -294,7 +284,7 @@ const menuItems = [
     name: "糖醋魚",
     href: "#",
     onclick: "return false;",
-    price: "元",
+    price: "450元",
     description: "酥脆的黃魚包裹酸甜醬汁，鮮美多汁——糖醋黃魚帶來每一口都讓人停不下來的美味！",
     img: "assets/img/menu/a la carte/sweet-and-sour-yellow-croaker.png",
     alt: "沒圖片",
@@ -819,4 +809,5 @@ menuItems.forEach(item => {
     </div>
   `;
   menuContainer.insertAdjacentHTML("beforeend", menuHTML);
+
 });
