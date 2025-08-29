@@ -554,7 +554,7 @@ const menuItems = [
     name: "香菇蛤蠣雞湯",
     href: "#",
     onclick: "return false;",
-    price: "300元",
+    price: "400元",
     description: "精選雞肉慢熬，搭配香菇與新鮮蛤蠣，湯頭鮮美甘甜，是養生家常湯品。",
     img: "assets/img/menu/soup/shiitake-clam-chicken-soup.png",
     alt: "香菇蛤蠣雞湯",
@@ -811,5 +811,6 @@ menuItems.forEach(item => {
   menuContainer.insertAdjacentHTML("beforeend", menuHTML);
 
 });
+
 
 
