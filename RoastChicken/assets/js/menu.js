@@ -626,8 +626,8 @@ const menuItems = [
     onclick: "return false;",
     price: "時價",
     description: "當季鮮魚入湯，鮮甜清爽，一口就愛上！",
-    img: "assets/img/menu/soup/low/seasonal-fresh-fish-soup.jpg",
-    alt: "時節鮮魚湯",
+    // img: "assets/img/menu/soup/low/seasonal-fresh-fish-soup.jpg",
+    alt: "沒圖片",
     filter: "filter-soups"
   },
   {
@@ -636,8 +636,8 @@ const menuItems = [
     onclick: "return false;",
     price: "450元",
     description: "當季鮮魚入湯，鮮甜清爽，一口就愛上！",
-    img: "assets/img/menu/soup/low/Giant-Grouper-soup.jpg",
-    alt: "龍膽石斑湯",
+    // img: "assets/img/menu/soup/low/Giant-Grouper-soup.jpg",
+    alt: "沒圖片",
     filter: "filter-soups"
   },
   {
@@ -776,7 +776,7 @@ const menuItems = [
     onclick: "return false;",
     price: "1350元",
     description: "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蘿蔔排骨湯",
-    img: "assets/img/menu/set meal.jpg",
+    // img: "assets/img/menu/set meal.jpg",
     alt: "合四",
     filter: "filter-set"
   },
@@ -786,7 +786,7 @@ const menuItems = [
     onclick: "return false;",
     price: "1650元",
     description: "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、蘿蔔排骨湯",
-    img: "assets/img/menu/set meal.jpg",
+    // img: "assets/img/menu/set meal.jpg",
     alt: "合五",
     filter: "filter-set"
   },
@@ -796,7 +796,7 @@ const menuItems = [
     onclick: "return false;",
     price: "1900元",
     description: "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蘿蔔排骨湯",
-    img: "assets/img/menu/set meal.jpg",
+    // img: "assets/img/menu/set meal.jpg",
     alt: "合六",
     filter: "filter-set"
   },
@@ -806,7 +806,7 @@ const menuItems = [
     onclick: "return false;",
     price: "2100元",
     description: "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蟹肉沙拉、蘿蔔排骨湯",
-    img: "assets/img/menu/set meal.jpg",
+    // img: "assets/img/menu/set meal.jpg",
     alt: "合七",
     filter: "filter-set"
   },
@@ -816,7 +816,7 @@ const menuItems = [
     onclick: "return false;",
     price: "2400元",
     description: "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蟹肉沙拉、山藥雙拼、蘿蔔排骨湯",
-    img: "assets/img/menu/set meal.jpg",
+    // img: "assets/img/menu/set meal.jpg",
     alt: "合八",
     filter: "filter-set"
   },
@@ -826,7 +826,7 @@ const menuItems = [
     onclick: "return false;",
     price: "2600元",
     description: "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蟹肉沙拉、山藥雙拼、薑絲大腸、蘿蔔排骨湯",
-    img: "assets/img/menu/set meal.jpg",
+    // img: "assets/img/menu/set meal.jpg",
     alt: "合九",
     filter: "filter-set"
   },
@@ -836,7 +836,7 @@ const menuItems = [
     onclick: "return false;",
     price: "2800元",
     description: "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蟹肉沙拉、山藥雙拼、薑絲大腸、甜豆燴蝦仁、蘿蔔排骨湯",
-    img: "assets/img/menu/set meal.jpg",
+    // img: "assets/img/menu/set meal.jpg",
     alt: "合十",
     filter: "filter-set"
   },
@@ -846,7 +846,7 @@ const menuItems = [
     onclick: "return false;",
     price: "3100元",
     description: "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蟹肉沙拉、山藥雙拼、薑絲大腸、甜豆燴蝦仁、清炒白蝦、蘿蔔排骨湯",
-    img: "assets/img/menu/set meal.jpg",
+    // img: "assets/img/menu/set meal.jpg",
     alt: "合十一",
     filter: "filter-set"
   },
@@ -856,7 +856,7 @@ const menuItems = [
     onclick: "return false;",
     price: "3300元",
     description: "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蟹肉沙拉、山藥雙拼、薑絲大腸、甜豆燴蝦仁、清炒白蝦、蛤蠣炒絲瓜、蘿蔔排骨湯",
-    img: "assets/img/menu/set meal.jpg",
+    // img: "assets/img/menu/set meal.jpg",
     alt: "合十二",
     filter: "filter-set"
   },
@@ -866,7 +866,7 @@ const menuItems = [
     onclick: "return false;",
     price: "3000元",
     description: "鋼管雞、蒸(糖醋)魚、東坡肉、櫻花蝦高麗菜、半天筍花燴蟹肉、魚翅羹、山藥南瓜排骨湯",
-    img: "assets/img/menu/set meal.jpg",
+    // img: "assets/img/menu/set meal.jpg",
     alt: "團六",
     filter: "filter-set"
   },
@@ -876,20 +876,19 @@ const menuItems = [
     onclick: "return false;",
     price: "4800元",
     description: "鋼管雞、蒸(糖醋)魚、山藥雙拼、蟹肉沙拉、日本扇貝、清炒白蝦、清炒鴕鳥肉、甜豆燴蝦仁、東坡肉、櫻花蝦高麗菜、半天筍花燴蟹肉、魚翅羹、山藥南瓜排骨湯",
-    img: "assets/img/menu/set meal.jpg",
+    // img: "assets/img/menu/set meal.jpg",
     alt: "團十二",
     filter: "filter-set"
   },
 ];
 
-// 選取容器
 const menuContainer = document.getElementById("menu-container");
 
 // 生成菜單 HTML
 menuItems.forEach(item => {
   const menuHTML = `
     <div class="col-lg-6 menu-item isotope-item ${item.filter}">
-      <img src="${item.img}" class="menu-img" alt="${item.alt}">
+      <img data-src="${item.img}" class="menu-img" alt="${item.alt}">
       <div class="menu-content">
         <a href="${item.href}" onclick="${item.onclick}">${item.name}</a><span>${item.price}</span>
       </div>
@@ -900,3 +899,18 @@ menuItems.forEach(item => {
   `;
   menuContainer.insertAdjacentHTML("beforeend", menuHTML);
 });
+
+// 懶加載
+const lazyImages = document.querySelectorAll("img[data-src]");
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const img = entry.target;
+      img.src = img.dataset.src;
+      observer.unobserve(img);
+    }
+  });
+});
+
+lazyImages.forEach(img => observer.observe(img));
+
