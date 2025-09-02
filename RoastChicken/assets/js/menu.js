@@ -131,7 +131,7 @@ const menuItems = [
     filter: "filter-dish"
   },
   {
-    name: "蟹肉炒絲瓜",
+    name: "蟹肉燴絲瓜",
     href: "#",
     onclick: "return false;",
     price: "350元",
@@ -141,7 +141,7 @@ const menuItems = [
     filter: "filter-dish"
   },
   {
-    name: "蝦仁炒絲瓜",
+    name: "蝦仁燴絲瓜",
     href: "#",
     onclick: "return false;",
     price: "350元",
@@ -161,7 +161,7 @@ const menuItems = [
     filter: "filter-dish"
   },
   {
-    name: "芹菜蟹肉",
+    name: "芹菜燴蟹肉",
     href: "#",
     onclick: "return false;",
     price: "350元",
@@ -240,6 +240,16 @@ const menuItems = [
     alt: "沙拉白蝦",
     filter: "filter-dish"
   },
+  {
+    name: "沙拉草蝦",
+    href: "#",
+    onclick: "return false;",
+    price: "450元",
+    description: "",
+    // img: "assets/img/menu/a la carte/low/White-Shrimp-Salad.jpg",
+    alt: "沒圖片",
+    filter: "filter-dish"
+  },
  {
     name: "蛋炒海菜芽",
     href: "#",
@@ -284,7 +294,7 @@ const menuItems = [
     name: "海苔蟹肉捲",
     href: "#",
     onclick: "return false;",
-    price: "150元",
+    price: "200元",
     description: "酥脆的海苔外皮包裹鮮美蟹肉，炸至金黃香氣迷人——每一口都令人停不下來的美味！",
     img: "assets/img/menu/a la carte/low/crispy-seaweed-crab-rolls.jpg",
     alt: "海苔蟹肉捲",
@@ -344,7 +354,7 @@ const menuItems = [
     name: "糖醋魚",
     href: "#",
     onclick: "return false;",
-    price: "元",
+    price: "450元",
     description: "酥脆的黃魚包裹酸甜醬汁，鮮美多汁——糖醋黃魚帶來每一口都讓人停不下來的美味！",
     // img: "assets/img/menu/a la carte/low/sweet-and-sour-yellow-croaker.jpg",
     alt: "沒圖片",
@@ -414,7 +424,7 @@ const menuItems = [
     name: "美人腿燴蟹肉",
     href: "#",
     onclick: "return false;",
-    price: "250元",
+    price: "350元",
     description: "嫩脆的水竹筍（美人腿）與鮮美蟹肉一同燴煮，融合清甜與鮮香，是饕客必嚐的台味佳餚。",
     img: "assets/img/menu/a la carte/low/water-bamboo-with-crab-meat.jpg",
     alt: "美人腿燴蟹肉",
@@ -458,6 +468,16 @@ const menuItems = [
     description: "精選鴕鳥肉片，清炒鎖住鮮甜，口感軟嫩多汁，健康又美味。",
     img: "assets/img/menu/a la carte/low/ostrich-meat-stir-fry.jpg",
     alt: "清炒鴕鳥肉",
+    filter: "filter-dish"
+  },
+  {
+    name: "清炒草蝦",
+    href: "#",
+    onclick: "return false;",
+    price: "450元",
+    description: "",
+    // img: "assets/img/menu/a la carte/low/ostrich-meat-stir-fry.jpg",
+    alt: "沒圖片",
     filter: "filter-dish"
   },
   {
@@ -604,7 +624,7 @@ const menuItems = [
     name: "魚翅羹",
     href: "#",
     onclick: "return false;",
-    price: "460元",
+    price: "500元",
     description: "精選魚翅燉煮入味，湯汁濃郁滑順，口感細膩鮮美，是宴會與節慶的經典之選。",
     img: "assets/img/menu/soup/low/shark-fin-broth.jpg",
     alt: "魚翅羹",
@@ -624,7 +644,7 @@ const menuItems = [
     name: "香菇蛤蠣雞湯",
     href: "#",
     onclick: "return false;",
-    price: "300元",
+    price: "400元",
     description: "精選雞肉慢熬，搭配香菇與新鮮蛤蠣，湯頭鮮美甘甜，是養生家常湯品。",
     img: "assets/img/menu/soup/low/shiitake-clam-chicken-soup.jpg",
     alt: "香菇蛤蠣雞湯",
@@ -684,7 +704,7 @@ const menuItems = [
     name: "燒酒雞半隻",
     href: "#",
     onclick: "return false;",
-    price: "400元",
+    price: "450元",
     description: "溫潤的米酒香，嫩滑雞肉，每一口都暖心又美味！",
     img: "assets/img/menu/soup/low/Shaoxing-Wine-Chicken.jpg",
     alt: "燒酒雞半隻",
@@ -694,7 +714,7 @@ const menuItems = [
     name: "燒酒雞全隻",
     href: "#",
     onclick: "return false;",
-    price: "750元",
+    price: "800元",
     description: "選用新鮮雞肉，以米酒慢火燉煮，酒香四溢，肉質鮮嫩，是經典台式滋補料理。",
     img: "assets/img/menu/soup/low/Shaoxing-Wine-Chicken.jpg",
     alt: "燒酒雞全隻",
@@ -704,7 +724,7 @@ const menuItems = [
     name: "麻油雞半隻",
     href: "#",
     onclick: "return false;",
-    price: "400元",
+    price: "450元",
     description: "麻油香氣撲鼻，雞肉嫩滑，每一口都暖心又美味！",
     img: "assets/img/menu/soup/low/Sesame-Oil-Chicken.jpg",
     alt: "麻油雞半隻",
@@ -714,7 +734,7 @@ const menuItems = [
     name: "麻油雞全隻",
     href: "#",
     onclick: "return false;",
-    price: "750元",
+    price: "800元",
     description: "新鮮雞肉與香濃麻油慢火燉煮，肉質滑嫩、香氣四溢，是經典台式滋補料理。",
     img: "assets/img/menu/soup/low/Sesame-Oil-Chicken.jpg",
     alt: "麻油雞全隻",
