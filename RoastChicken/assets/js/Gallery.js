@@ -28,7 +28,7 @@
         <a href="assets/img/gallery/${img.full}" 
            class="glightbox" 
            data-gallery="images-gallery">
-          <img src="assets/img/gallery/low/${img.thumb}" alt="" class="img-fluid">
+          <img src="assets/img/gallery/low/${img.thumb}" loading="lazy" class="img-fluid">
         </a>
       </div>
     `;
