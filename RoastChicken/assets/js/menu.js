@@ -11,6 +11,16 @@ const menuItems = [
     filter: "filter-dish"
   },
   {
+    name: "脆皮雞",
+    href: "#",
+    onclick: "return false;",
+    price: "700元",
+    description: "外皮酥脆金黃，內裡多汁鮮嫩，香氣四溢，是餐桌上的人氣首選。",
+    img: "assets/img/menu/a la carte/low/roasted-chicken.jpg",
+    alt: "脆皮雞",
+    filter: "filter-dish"
+  },
+  {
     name: "翅杏仔骨",
     href: "#",
     onclick: "return false;",

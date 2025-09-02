@@ -17,7 +17,7 @@
     { thumb: "gallery-15.jpg", full: "gallery-15.jpg" }
   ];
 
-  const gallery = document.getElementById("gallery");
+  const gallery = document.getElementById("gallery-array");
 
   images.forEach(img => {
     const col = document.createElement("div");
