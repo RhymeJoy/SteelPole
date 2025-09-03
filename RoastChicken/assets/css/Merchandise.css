@@ -1,0 +1,295 @@
+
+
+
+
+/* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
+
+
+
+:root {
+  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Playfair Display",  sans-serif;
+  --nav-font: "Poppins",  sans-serif;
+}
+
+/* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
+:root { 
+  --background-color: #0c0b09; /* Background color for the entire website, including individual sections */
+  --default-color: rgba(255, 255, 255, 0.7); /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #ffffff; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #cda45e; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #29261f; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --contrast-color: #0c0b09; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+}
+
+/* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
+:root {
+  --nav-color: #ffffff;  /* The default color of the main navmenu links */
+  --nav-hover-color: #cda45e; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-mobile-background-color: #29261f; /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #29261f; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-dropdown-color: #ffffff; /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-hover-color: #cda45e; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+}
+
+/* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
+
+.light-background {
+  --background-color: #29261f;
+  --surface-color: #464135;
+}
+
+.dark-background {
+  --background-color: #000000;
+  --default-color: #ffffff;
+  --heading-color: #ffffff;
+  --surface-color: #1a1a1a;
+  --contrast-color: #ffffff;
+}
+
+/* Smooth scroll */
+:root {
+  scroll-behavior: smooth;
+}
+
+/* 字體 */
+.lxgw-wenkai-mono-tc-regular {
+  font-family: "LXGW WenKai Mono TC", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 主體 */
+body {
+    color: var(--default-color);
+    background-color: var(--background-color);
+    font-family: LXGW WenKai Mono TC;
+}
+
+/* List */
+
+.product-container {
+    margin: 0em 5em 0em 5em;
+    transition: .25s;
+}
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1.5em;
+    margin: 1.5em 1em;
+}
+.product-item {
+    border: 1px solid #ddd;
+    border-radius: 7.5px;
+    padding: 15px;
+    text-align: center;
+    background-color: #212121;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: .15s;
+}
+.product-item:hover {
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+    transform: scale(1.025);
+    transition: .15s;
+}
+.product-item img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background: #222;
+    display: block;
+}
+.product-item h3 {
+    font-size: 1.1em;
+    margin: 10px 0;
+    font-weight: normal;
+}
+.product-item p {
+    color: rgb(194, 161, 139);
+    font-weight: bold;
+}
+.product-item a {
+    display: inline-block;
+    background-color: #f60;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 0px;
+    border-radius: 5px;
+    font-family: LXGW WenKai Mono TC;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+.product-item a:hover {
+    background-color: #e55;
+}
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 1em;
+    justify-content: center;
+}
+.back-btn {
+    background-color: #1f1010;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: LXGW WenKai Mono TC;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.back-btn:hover {
+    background-color: rgb(156, 62, 0);
+    color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+}
+.back-btn:active {
+    background-color: rgb(158, 0, 5);
+}
+.category-item {
+    background-color: #1f1010;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: LXGW WenKai Mono TC;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.category-item:hover {
+    background-color: rgb(156, 62, 0);
+    color: #fff;
+    transform: scale(1.05);
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+}
+.category-item.active {
+    background-color: rgb(171, 97, 0);
+}
+.category-item.active:hover {
+    background-color: rgb(158, 0, 5);
+}
+.banner {
+    background-color: #341a05;
+    text-align: center;
+    padding: 50px 0px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100vw;
+}
+.banner h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: rgb(198, 154, 125);
+    transition: .2s;
+}
+.banner p {
+    font-size: 1.2em;
+    color: #c08f8f;
+}
+
+p, h3, h1, h2 {
+    font-family: LXGW WenKai Mono TC;
+    text-align: center;
+    transition: .2s;
+}
+
+@media (max-width: 800px) {
+
+    .product-container {
+        margin: 0em 2.5em 0em 2.5em;
+        transition: .25s;
+    }
+    .product-list {
+        margin: 1.5em 0em;
+        gap: 1em;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+    .banner h1 {
+        font-size: 2em;
+        transition: .2s;
+    }
+    .banner p {
+        font-size: 1em;
+        transition: .2s;
+    }
+    .product-item img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .category-item {
+        border-radius: 7.5px;
+        padding: 7.5px 10px;
+        transition: .25s;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .product-container {
+        margin: 0em 3em 0em 3em;
+        transition: .25s;
+    }
+    p {
+        font-size: larger;
+    }
+    .banner h1 {
+        font-size: 3em;
+        transition: .2s;
+    }
+    .banner p {
+        font-size: 1.5em;
+        transition: .2s;
+    }
+    h2 {
+        font-size: 2em;
+        transition: .2s;
+    }
+    .category-item {
+        padding: 10px 20px;
+        font-size: 1.25em;
+        transition: .25s;
+    }
+}
+@media (min-width: 1600px) {
+    .product-container {
+        margin: 0em -1em 0em -1em;
+        transition: .25s;
+    }
+    .product-item {
+        padding: 20px;
+        font-size: 1.25em;
+        transition: .25s;
+    }
+    .product-list {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 2em;
+        margin: 20px 10em;
+        transition: .25s;
+    }
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    height: 3em;
+    background-color: #1a0b02;
+    color: rgb(209, 118, 118);
+    text-align: center;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer:hover {
+    color: rgb(255, 99, 99);
+}
+main {
+    padding-bottom: 75px;
+}
