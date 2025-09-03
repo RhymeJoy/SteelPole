@@ -436,8 +436,8 @@ const menuItems = [
     onclick: "return false;",
     price: "200元",
     description: "娃娃菜的清甜加上櫻花蝦的香氣，一口接一口超涮嘴！",
-    img: "assets/img/menu/a la carte/low/water-bamboo-with-crab-meat.jpg",
-    alt: "櫻花蝦娃娃菜",
+    // img: "assets/img/menu/a la carte/low/water-bamboo-with-crab-meat.jpg",
+    alt: "沒圖片",
     filter: "filter-dish"
   },
   {
