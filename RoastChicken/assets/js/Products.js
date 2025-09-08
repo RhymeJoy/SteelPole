@@ -10,7 +10,7 @@ const products = [
 {
   name: "脆皮雞",
   price: "700元",
-  image: "assets/img/menu/a la carte/low/roasted-chicken.jpg",
+  image: "assets/img/menu/a la carte/low/crispy-roasted-chicken.jpg",
   link: "#",
   alt: "脆皮雞",
   categories: ["dish", "all"]
@@ -331,7 +331,7 @@ const products = [
   name: "香蒜雞油拌麵線",
   price: "60元",
   image: "assets/img/menu/a la carte/low/garlic-chicken-oil-noodles.jpg",
-  link: "#",
+  link: "Menu/Cuisine.html",
   alt: "香蒜雞油拌麵線",
   categories: ["staple", "all"]
 },
@@ -554,7 +554,7 @@ const products = [
 {
   name: "蛤蠣湯",
   price: "150元",
-  image: "",
+  image: "assets/img/menu/soup/low/fresh-clam-soup.jpg",
   link: "#",
   alt: "沒圖片",
   categories: ["soup", "all"]
