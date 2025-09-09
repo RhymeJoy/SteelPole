@@ -79,6 +79,9 @@ body {
     margin: 1.5em 1em;
 }
 .product-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     border: 1px solid #ddd;
     border-radius: 7.5px;
     padding: 15px;
@@ -110,8 +113,10 @@ body {
 .product-item p {
     color: rgb(194, 161, 139);
     font-weight: bold;
+    margin-bottom: 0.5em;
 }
 .product-item a {
+    
     display: inline-block;
     background-color: #f60;
     color: #fff;
