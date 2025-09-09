@@ -7,6 +7,12 @@ function getLanguage() {
 
 const lang = getLanguage();
 
+//沒圖
+const altNoimage = {
+  "zh-tw": "沒圖片",
+  "en": "No Image"
+};
+
 const menuContainer = document.getElementById("menu-container");
 
 // 生成菜單 HTML
@@ -14,7 +20,6 @@ menuItems.forEach(item => {
   const menuHTML = `
     <div class="col-lg-6 menu-item isotope-item ${item.filter}">
       <img data-src="${item.img}" class="menu-img" alt="${altNoimage[lang]}">
-      
       <div class="menu-content">
         <a href="${item.href}" onclick="${item.onclick}">${item.name[lang]}</a>
         <span>${item.price[lang]}</span>

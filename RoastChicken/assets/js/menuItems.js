@@ -3,11 +3,6 @@ const marketPrice = {
   "zh-tw": "時價",
   "en": "Market Price"
 };
-//沒圖
-const altNoimage = {
-  "zh-tw": "沒圖片",
-  "en": "No Image"
-};
 //價格
 const p10 = {
   "zh-tw": "10元",
@@ -96,7 +91,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/roasted-chicken.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: { 
@@ -115,7 +111,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/crispy-roasted-chicken.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -134,7 +131,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/Chia-Xing.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -153,7 +151,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/chicken-tendon-tomato.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -172,7 +171,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/crispy-tofu.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -192,7 +192,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/steamed-Giant-Grouper.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -211,7 +212,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/Dongpo-Pork.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -220,6 +222,7 @@ const menuItems = [
     },
     href: "#",
     onclick: "return false;",
+    categories: ["dish", "all"],
     price: p150,
     description: {
       "zh-tw": "新鮮蟹肉棒切片，與爽脆蔬菜拌勻，搭配特製沙拉醬，口感清爽，酸甜開胃，是輕食與開胃小菜的理想選擇。",
@@ -249,7 +252,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/Yam-Duo-Platter.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -268,7 +272,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/pork-intestines-with-ginger.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -287,7 +292,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/shrimp-with-sweet-peas.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -306,7 +312,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/stir-fried-white-shrimp.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: { 
@@ -325,7 +332,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/clams-loofah-stirfry.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -344,7 +352,8 @@ const menuItems = [
     img: "",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -363,7 +372,8 @@ const menuItems = [
     img: "",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -382,7 +392,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/duck-intestines-with-celery.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -404,7 +415,8 @@ const menuItems = [
     img: "",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -423,7 +435,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/sweet-and-sour-pork-ribs.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -442,7 +455,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/stir-fried-spicy-whelk.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -461,7 +475,8 @@ const menuItems = [
     img: "",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -480,7 +495,8 @@ const menuItems = [
     img: "",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -499,7 +515,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/japanese-scallops.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -521,7 +538,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/northern-coast-squid.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -540,7 +558,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/White-Shrimp-Salad.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -559,7 +578,8 @@ const menuItems = [
     img: "",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
  {
     name: {
@@ -578,7 +598,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/egg-seaweed-sprouts-stirfry.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -597,7 +618,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/stir-fried-cabbage-with-chinese-bacon.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -616,7 +638,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/marinated-seaweed-sprouts.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -635,7 +658,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/stir-fried-Short-Necked-wild-clams.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -654,7 +678,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/crispy-seaweed-crab-rolls.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: { 
@@ -673,7 +698,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/star-jelly.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: { 
@@ -692,7 +718,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/crispy-fried-oysters.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -711,7 +738,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/salt-grilled-large-clams.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -730,7 +758,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/crispy-water-chestnut-sticks.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -749,7 +778,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/puzih-water-lily.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -768,7 +798,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/Sweet and Sour Yellow Croaker.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -787,7 +818,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/cabbage-crispy-sakura-shrimp.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -806,7 +838,8 @@ const menuItems = [
     img: "",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -825,7 +858,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/scallion-stir-fried-grouper-belly.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -844,7 +878,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/crab-meat-bamboo-shoot-flowers.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -863,7 +898,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/stir-fried-oysters-black-bean-sauce.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: { 
@@ -885,7 +921,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/garlic-chicken-oil-noodles.avif",
     filter: "filter-staple",
     href: "Menu/Cuisine.html",
-    onclick: ""
+    onclick: "",
+    categories: ["staple", "all"]
   },
   {
     name: {
@@ -907,7 +944,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/water-bamboo-with-crab-meat.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -926,7 +964,8 @@ const menuItems = [
     img: "",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -945,7 +984,8 @@ const menuItems = [
     img: "",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -964,7 +1004,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/pineapple-shrimp-balls.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -983,7 +1024,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/ostrich-meat-stir-fry.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -1002,7 +1044,8 @@ const menuItems = [
     img: "",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -1021,7 +1064,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/sword-bamboo-shoots.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   // {
   //   name: {
@@ -1040,7 +1084,8 @@ const menuItems = [
   //   img: "",
   //   filter: "filter-dish",
   //   href: "#",
-  //   onclick: "return false;"
+  //   onclick: "return false;",
+  //   categories: ["dish", "all"]
   // },
   {
     name: {
@@ -1059,7 +1104,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/chilled-bamboo-salad.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -1078,7 +1124,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/Shrimp-Scrambled-Eggs.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -1097,7 +1144,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/Crab-Scrambled-Eggs.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -1116,7 +1164,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/shrimp-omelette-jade-sauce.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -1135,7 +1184,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/sesame-oil-sticky-rice-eel.avif",
     filter: "filter-staple",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["staple", "all"]
   },
   {
     name: {
@@ -1154,7 +1204,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/sesame-oil-glutinous-rice.avif",
     filter: "filter-staple",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["staple", "all"]
   },
   {
     name: {
@@ -1173,7 +1224,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/crispy-dory-fish.avif",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: {
@@ -1192,7 +1244,8 @@ const menuItems = [
     img: "",
     filter: "filter-dish",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dish", "all"]
   },
   {
     name: { "zh-tw": "櫻花蝦拌飯(大)", "en": "Sakura Shrimp Rice Bowl(large)" },
@@ -1205,7 +1258,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/sakura-shrimp-fried-rice.avif",
     filter: "filter-staple",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["staple", "all"]
   },
   {
     name: {
@@ -1224,7 +1278,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/sakura-shrimp-fried-rice.avif",
     filter: "filter-staple",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["staple", "all"]
   },
   {
     name: {
@@ -1243,7 +1298,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/egg-shrimp-fried-rice.avif",
     filter: "filter-staple",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["staple", "all"]
   },
   {
     name: {
@@ -1262,7 +1318,8 @@ const menuItems = [
     img: "",
     filter: "filter-staple",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["staple", "all"]
   },
   {
     name: {
@@ -1281,7 +1338,8 @@ const menuItems = [
     img: "assets/img/menu/a la carte/avif/rice.avif",
     filter: "filter-staple",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["staple", "all"]
   },
   {
     name: {
@@ -1300,7 +1358,8 @@ const menuItems = [
     img: "assets/img/menu/soup/avif/shark-fin-broth.avif",
     filter: "filter-soups",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["soup", "all"]
   },
   {
     name: {
@@ -1319,7 +1378,8 @@ const menuItems = [
     img: "assets/img/menu/soup/avif/radish-pork-rib-soup.avif",
     filter: "filter-soups",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["soup", "all"]
   },
   {
     name: {
@@ -1338,7 +1398,8 @@ const menuItems = [
     img: "assets/img/menu/soup/avif/shiitake-clam-chicken-soup.avif",
     filter: "filter-soups",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["soup", "all"]
   },
   {
     name: {
@@ -1357,7 +1418,8 @@ const menuItems = [
     img: "",
     filter: "filter-soups",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["soup", "all"]
   },
   {
     name: {
@@ -1376,7 +1438,8 @@ const menuItems = [
     img: "",
     filter: "filter-soups",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["soup", "all"]
   },
   {
     name: {
@@ -1395,7 +1458,8 @@ const menuItems = [
     img: "assets/img/menu/soup/avif/pork-rib-soup-yam-pumpkin.avif",
     filter: "filter-soups",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["soup", "all"]
   },
   {
     name: {
@@ -1414,7 +1478,8 @@ const menuItems = [
     img: "assets/img/menu/soup/avif/whitebait-seaweed-soup.avif",
     filter: "filter-soups",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["soup", "all"]
   },
   {
     name: {
@@ -1433,7 +1498,8 @@ const menuItems = [
     img: "assets/img/menu/soup/avif/fresh-clam-soup.avif",
     filter: "filter-soups",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["soup", "all"]
   },
   {
     name: {
@@ -1452,7 +1518,8 @@ const menuItems = [
     img: "assets/img/menu/soup/avif/Shaoxing-Wine-Chicken.avif",
     filter: "filter-soups",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["soup", "all"]
   },
   {
     name: {
@@ -1471,7 +1538,8 @@ const menuItems = [
     img: "assets/img/menu/soup/avif/Shaoxing-Wine-Chicken.avif",
     filter: "filter-soups",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["soup", "all"]
   },
   {
     name: {
@@ -1490,7 +1558,8 @@ const menuItems = [
     img: "assets/img/menu/soup/avif/Sesame-Oil-Chicken.avif",
     filter: "filter-soups",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["soup", "all"]
   },
   {
     name: {
@@ -1509,7 +1578,8 @@ const menuItems = [
     img: "assets/img/menu/soup/avif/Sesame-Oil-Chicken.avif",
     filter: "filter-soups",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["soup", "all"]
   },
   {
     name: {
@@ -1528,7 +1598,8 @@ const menuItems = [
     img: "assets/img/menu/dessert/avif/watermelon.avif",
     filter: "filter-dessert",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dessert", "all"]
   },
   {
     name: {
@@ -1547,7 +1618,8 @@ const menuItems = [
     img: "assets/img/menu/dessert/avif/ice-roll.avif",
     filter: "filter-dessert",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dessert", "all"]
   },
   {
     name: {
@@ -1563,7 +1635,8 @@ const menuItems = [
     img: "",
     filter: "filter-dessert",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dessert", "all"]
   },
   {
     name: {
@@ -1582,7 +1655,8 @@ const menuItems = [
     img: "assets/img/menu/dessert/avif/snow-angel.avif",
     filter: "filter-dessert",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dessert", "all"]
   },
   {
     name: {
@@ -1601,7 +1675,8 @@ const menuItems = [
     img: "assets/img/menu/dessert/avif/almond-jelly.avif",
     filter: "filter-dessert",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["dessert", "all"]
   },
   // {
   //   name: {
@@ -1620,7 +1695,8 @@ const menuItems = [
   //   img: "assets/img/menu/dessert/avif/strawberry-almond-jelly.avif",
   //   filter: "filter-dessert",
   //   href: "#",
-  //   onclick: "return false;"
+  //   onclick: "return false;",
+  //   categories: ["dessert", "all"]
   // },
   {
     name: {
@@ -1642,7 +1718,9 @@ const menuItems = [
     img: "",
     filter: "filter-set",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["set", "all"],
+    categories: ["set", "all"]
   },
   {
     name: {
@@ -1661,7 +1739,8 @@ const menuItems = [
     img: "",
     filter: "filter-set",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["set", "all"]
   },
   {
     name: {
@@ -1683,7 +1762,8 @@ const menuItems = [
     img: "",
     filter: "filter-set",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["set", "all"]
   },
   {
     name: {
@@ -1705,7 +1785,8 @@ const menuItems = [
     img: "",
     filter: "filter-set",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["set", "all"]
   },
   {
     name: {
@@ -1727,7 +1808,8 @@ const menuItems = [
     img: "",
     filter: "filter-set",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["set", "all"]
   },
   {
     name: {
@@ -1746,7 +1828,8 @@ const menuItems = [
     img: "",
     filter: "filter-set",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["set", "all"]
   },
   {
     name: {
@@ -1768,7 +1851,8 @@ const menuItems = [
     img: "",
     filter: "filter-set",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["set", "all"]
   },
   {
     name: {
@@ -1790,7 +1874,8 @@ const menuItems = [
     img: "",
     filter: "filter-set",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["set", "all"]
   },
   {
     name: {
@@ -1812,7 +1897,8 @@ const menuItems = [
     img: "",
     filter: "filter-set",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["set", "all"]
   },
   {
     name: {
@@ -1834,7 +1920,8 @@ const menuItems = [
     img: "",
     filter: "filter-set",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["set", "all"]
   },
   {
     name: {
@@ -1856,6 +1943,7 @@ const menuItems = [
     img: "",
     filter: "filter-set",
     href: "#",
-    onclick: "return false;"
+    onclick: "return false;",
+    categories: ["set", "all"]
   },
 ];
