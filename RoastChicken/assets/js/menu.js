@@ -15,13 +15,18 @@ const altNoimage = {
 
 const menuContainer = document.getElementById("menu-container");
 
+const href = {
+  "zh-tw": "Menu/Cuisine.html",
+  "en": "Menu/Cuisine-en.html"
+}
+
 // 生成菜單 HTML
 menuItems.forEach(item => {
   const menuHTML = `
     <div class="col-lg-6 menu-item isotope-item ${item.filter}">
       <img data-src="${item.img}" class="menu-img" alt="${altNoimage[lang]}">
       <div class="menu-content">
-        <a href="${item.href}" onclick="${item.onclick}">${item.name[lang]}</a>
+        <a href="${href[lang]}?id=${lang}&number=${item.number}" onclick="${item.onclick}">${item.name[lang]}</a>
         <span>${item.price[lang]}</span>
       </div>
       <div class="menu-ingredients">

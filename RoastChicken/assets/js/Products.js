@@ -56,6 +56,11 @@ const details = {
   "en": "View Details"
 }
 
+const href = {
+  "zh-tw": "Menu/Cuisine.html",
+  "en": "Menu/Cuisine-en.html"
+}
+
 // --- 生成商品列表 ---
 menuItems.forEach(item => {
   const productItem = document.createElement('div');
@@ -66,7 +71,7 @@ menuItems.forEach(item => {
     <h3>${item.name[lang]}</h3>
     <div style="margin-top: auto;">
       <p>${item.price[lang]}</p>
-      <a href="${item.href}">${details[lang]}</a>
+      <a href="${href[lang]}?id=${lang}&number=${item.number}" onclick="${item.onclick}">${details[lang]}</a>
     <div>
   `;
   productListContainer.appendChild(productItem);
