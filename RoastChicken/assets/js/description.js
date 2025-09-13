@@ -19,8 +19,8 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   const returnHref = {
-    "zh-tw": "../../Menu.html",
-    "en": "../../Menu-en.html"
+    "zh-tw": "../Menu.html",
+    "en": "../Menu-en.html"
   } 
 
   const cat = {
@@ -84,4 +84,5 @@ document.addEventListener("DOMContentLoaded", () => {
   function changeImage(newSrc) {
     mainImage.src = newSrc;
   }
+
 });
