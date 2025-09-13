@@ -98,7 +98,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/roasted-chicken.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "1"
   },
@@ -122,7 +122,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/crispy-roasted-chicken.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "2"
   },
@@ -146,7 +146,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/Chia-Xing.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "3"
   },
@@ -170,7 +170,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/chicken-tendon-tomato.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "4"
   },
@@ -194,7 +194,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/crispy-tofu.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "5"
   },
@@ -218,7 +218,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/steamed-Giant-Grouper.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "6"
   },
@@ -242,7 +242,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/Dongpo-Pork.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "7"
   },
@@ -266,7 +266,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/Imitation-Crab-Salad.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "8"
   },
@@ -290,7 +290,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/Yam-Duo-Platter.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "9"
   },
@@ -314,7 +314,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/pork-intestines-with-ginger.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "10"
   },
@@ -338,7 +338,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/shrimp-with-sweet-peas.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "11"
   },
@@ -362,7 +362,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/stir-fried-white-shrimp.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "12"
   },
@@ -386,7 +386,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/clams-loofah-stirfry.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "13"
   },
@@ -410,7 +410,7 @@ const menuItems = [
     },
     img: "",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "14"
   },
@@ -434,7 +434,7 @@ const menuItems = [
     },
     img: "",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "15"
   },
@@ -458,7 +458,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/duck-intestines-with-celery.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "16"
   },
@@ -485,7 +485,7 @@ const menuItems = [
     },
     img: "",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "17"
   },
@@ -509,7 +509,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/sweet-and-sour-pork-ribs.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "18"
   },
@@ -533,7 +533,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/stir-fried-spicy-whelk.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "19"
   },
@@ -557,7 +557,7 @@ const menuItems = [
     },
     img: "",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "20"
   },
@@ -581,7 +581,7 @@ const menuItems = [
     },
     img: "",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "21"
   },
@@ -605,7 +605,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/japanese-scallops.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "22"
   },
@@ -632,7 +632,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/northern-coast-squid.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "23"
   },
@@ -656,7 +656,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/White-Shrimp-Salad.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "24"
   },
@@ -680,7 +680,7 @@ const menuItems = [
     },
     img: "",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "25"
   },
@@ -704,7 +704,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/egg-seaweed-sprouts-stirfry.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "26"
   },
@@ -728,7 +728,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/stir-fried-cabbage-with-chinese-bacon.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "27"
   },
@@ -752,7 +752,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/marinated-seaweed-sprouts.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "28"
   },
@@ -776,7 +776,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/stir-fried-Short-Necked-wild-clams.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "29"
   },
@@ -800,7 +800,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/crispy-seaweed-crab-rolls.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "30"
   },
@@ -824,7 +824,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/star-jelly.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "31"
   },
@@ -848,7 +848,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/crispy-fried-oysters.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "32"
   },
@@ -872,7 +872,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/salt-grilled-large-clams.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "33"
   },
@@ -896,7 +896,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/crispy-water-chestnut-sticks.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "34"
   },
@@ -920,7 +920,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/puzih-water-lily.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "35"
   },
@@ -944,7 +944,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/Sweet and Sour Yellow Croaker.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "36"
   },
@@ -968,7 +968,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/cabbage-crispy-sakura-shrimp.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "37"
   },
@@ -992,7 +992,7 @@ const menuItems = [
     },
     img: "",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "38"
   },
@@ -1016,7 +1016,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/scallion-stir-fried-grouper-belly.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "39"
   },
@@ -1040,7 +1040,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/crab-meat-bamboo-shoot-flowers.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "40"
   },
@@ -1064,7 +1064,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/stir-fried-oysters-black-bean-sauce.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "41"
   },
@@ -1080,7 +1080,7 @@ const menuItems = [
     },
     detail:{
       "zh-tw": "以新鮮蒜末慢火爆香至金黃，加入少量雞油、醬油與油蔥酥提味，迅速拌入煮至彈嫩的細麵線，使每根麵線均勻包裹蒜香與油脂。最後撒上蔥花增加清香並帶微脆口感。入口先是香濃蒜味與雞油的溫潤，接著油蔥酥的酥脆提升層次，整體滑順不膩，適合搭配清爽小菜或熱湯。",
-      "en": "" 
+      "en": "Minced fresh garlic is gently sautéed over low heat until golden, then a small amount of chicken fat, soy sauce, and crispy fried shallots are added for flavor. Cooked tender thin noodles are quickly tossed in, ensuring each strand is evenly coated with garlic aroma and savory oil. Finally, chopped scallions are sprinkled on top for a fresh fragrance and a slightly crisp texture. The first bite delivers the rich aroma of garlic and the smooth warmth of chicken fat, followed by the crunch of fried shallots that adds depth. The overall texture is silky yet light, making it perfect to enjoy with refreshing side dishes or a hot soup." 
     },
     alt: {
       "zh-tw": "香蒜雞油拌麵線",
@@ -1092,9 +1092,9 @@ const menuItems = [
     categories: ["staple", "all"],
     number: "42",
     images: [
-      "../assets/img/Cuisine/garlic-chicken-oil-noodles/1.jpg",
-      "../assets/img/Cuisine/garlic-chicken-oil-noodles/2.jpg",
-      "../assets/img/Cuisine/garlic-chicken-oil-noodles/3.jpg"
+      "../assets/img/Cuisine/garlic-chicken-oil-noodles/1.avif",
+      "../assets/img/Cuisine/garlic-chicken-oil-noodles/2.avif",
+      "../assets/img/Cuisine/garlic-chicken-oil-noodles/3.avif"
     ]
   },
   {
@@ -1120,7 +1120,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/water-bamboo-with-crab-meat.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "43"
   },
@@ -1144,7 +1144,7 @@ const menuItems = [
     },
     img: "",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "44"
   },
@@ -1168,7 +1168,7 @@ const menuItems = [
     },
     img: "",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "45"
   },
@@ -1192,7 +1192,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/pineapple-shrimp-balls.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "46"
   },
@@ -1216,7 +1216,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/ostrich-meat-stir-fry.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "47"
   },
@@ -1240,7 +1240,7 @@ const menuItems = [
     },
     img: "",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "48"
   },
@@ -1264,7 +1264,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/sword-bamboo-shoots.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "49"
   },
@@ -1289,7 +1289,7 @@ const menuItems = [
   //   img: "",
   //   filter: "filter-dish",
   //
-  //   onclick: "return false;",
+  //   onclick: "",
   //   categories: ["dish", "all"],
   //   number: "50"
   // },
@@ -1313,7 +1313,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/chilled-bamboo-salad.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "51"
   },
@@ -1337,7 +1337,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/Shrimp-Scrambled-Eggs.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "52"
   },
@@ -1361,7 +1361,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/Crab-Scrambled-Eggs.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "53"
   },
@@ -1385,7 +1385,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/shrimp-omelette-jade-sauce.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "54"
   },
@@ -1409,7 +1409,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/sesame-oil-sticky-rice-eel.avif",
     filter: "filter-staple",
-    onclick: "return false;",
+    onclick: "",
     categories: ["staple", "all"],
     number: "55"
   },
@@ -1433,7 +1433,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/sesame-oil-glutinous-rice.avif",
     filter: "filter-staple",
-    onclick: "return false;",
+    onclick: "",
     categories: ["staple", "all"],
     number: "56"
   },
@@ -1457,7 +1457,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/crispy-dory-fish.avif",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "57"
   },
@@ -1481,7 +1481,7 @@ const menuItems = [
     },
     img: "",
     filter: "filter-dish",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dish", "all"],
     number: "58"
   },
@@ -1499,7 +1499,7 @@ const menuItems = [
     alt: { "zh-tw": "櫻花蝦拌飯大份", "en": "Sakura Shrimp Rice Bowl(large)" },
     img: "assets/img/menu/a la carte/avif/sakura-shrimp-fried-rice.avif",
     filter: "filter-staple",
-    onclick: "return false;",
+    onclick: "",
     categories: ["staple", "all"],
     number: "59"
   },
@@ -1523,7 +1523,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/sakura-shrimp-fried-rice.avif",
     filter: "filter-staple",
-    onclick: "return false;",
+    onclick: "",
     categories: ["staple", "all"],
     number: "60"
   },
@@ -1547,7 +1547,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/egg-shrimp-fried-rice.avif",
     filter: "filter-staple",
-    onclick: "return false;",
+    onclick: "",
     categories: ["staple", "all"],
     number: "61"
   },
@@ -1571,7 +1571,7 @@ const menuItems = [
     },
     img: "",
     filter: "filter-staple",
-    onclick: "return false;",
+    onclick: "",
     categories: ["staple", "all"],
     number: "62"
   },
@@ -1595,7 +1595,7 @@ const menuItems = [
     },
     img: "assets/img/menu/a la carte/avif/rice.avif",
     filter: "filter-staple",
-    onclick: "return false;",
+    onclick: "",
     categories: ["staple", "all"],
     number: "63"
   },
@@ -1643,7 +1643,7 @@ const menuItems = [
     },
     img: "assets/img/menu/soup/avif/radish-pork-rib-soup.avif",
     filter: "filter-soups",
-    onclick: "return false;",
+    onclick: "",
     categories: ["soup", "all"],
     number: "s2"
   },
@@ -1667,7 +1667,7 @@ const menuItems = [
     },
     img: "assets/img/menu/soup/avif/shiitake-clam-chicken-soup.avif",
     filter: "filter-soups",
-    onclick: "return false;",
+    onclick: "",
     categories: ["soup", "all"],
     number: "s3"
   },
@@ -1691,7 +1691,7 @@ const menuItems = [
     },
     img: "",
     filter: "filter-soups",
-    onclick: "return false;",
+    onclick: "",
     categories: ["soup", "all"],
     number: "s4"
   },
@@ -1715,7 +1715,7 @@ const menuItems = [
     },
     img: "",
     filter: "filter-soups",
-    onclick: "return false;",
+    onclick: "",
     categories: ["soup", "all"],
     number: "s5"
   },
@@ -1739,7 +1739,7 @@ const menuItems = [
     },
     img: "assets/img/menu/soup/avif/pork-rib-soup-yam-pumpkin.avif",
     filter: "filter-soups",
-    onclick: "return false;",
+    onclick: "",
     categories: ["soup", "all"],
     number: "s6"
   },
@@ -1763,7 +1763,7 @@ const menuItems = [
     },
     img: "assets/img/menu/soup/avif/whitebait-seaweed-soup.avif",
     filter: "filter-soups",
-    onclick: "return false;",
+    onclick: "",
     categories: ["soup", "all"],
     number: "s7"
   },
@@ -1787,7 +1787,7 @@ const menuItems = [
     },
     img: "assets/img/menu/soup/avif/fresh-clam-soup.avif",
     filter: "filter-soups",
-    onclick: "return false;",
+    onclick: "",
     categories: ["soup", "all"],
     number: "s8"
   },
@@ -1811,7 +1811,7 @@ const menuItems = [
     },
     img: "assets/img/menu/soup/avif/Shaoxing-Wine-Chicken.avif",
     filter: "filter-soups",
-    onclick: "return false;",
+    onclick: "",
     categories: ["soup", "all"],
     number: "s9"
   },
@@ -1835,7 +1835,7 @@ const menuItems = [
     },
     img: "assets/img/menu/soup/avif/Shaoxing-Wine-Chicken.avif",
     filter: "filter-soups",
-    onclick: "return false;",
+    onclick: "",
     categories: ["soup", "all"],
     number: "s10"
   },
@@ -1859,7 +1859,7 @@ const menuItems = [
     },
     img: "assets/img/menu/soup/avif/Sesame-Oil-Chicken.avif",
     filter: "filter-soups",
-    onclick: "return false;",
+    onclick: "",
     categories: ["soup", "all"],
     number: "s11"
   },
@@ -1883,7 +1883,7 @@ const menuItems = [
     },
     img: "assets/img/menu/soup/avif/Sesame-Oil-Chicken.avif",
     filter: "filter-soups",
-    onclick: "return false;",
+    onclick: "",
     categories: ["soup", "all"],
     number: "s12"
   },
@@ -1907,7 +1907,7 @@ const menuItems = [
     },
     img: "assets/img/menu/dessert/avif/watermelon.avif",
     filter: "filter-dessert",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dessert", "all"],
     number: "d1"
   },
@@ -1931,7 +1931,7 @@ const menuItems = [
     },
     img: "assets/img/menu/dessert/avif/ice-roll.avif",
     filter: "filter-dessert",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dessert", "all"],
     number: "d2"
   },
@@ -1952,7 +1952,7 @@ const menuItems = [
     alt: { "zh-tw": "明月冰捲", "en": "Mingyue Ice Rolls" },
     img: "",
     filter: "filter-dessert",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dessert", "all"],
     number: "d3"
   },
@@ -1976,7 +1976,7 @@ const menuItems = [
     },
     img: "assets/img/menu/dessert/avif/snow-angel.avif",
     filter: "filter-dessert",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dessert", "all"],
     number: "d4"
   },
@@ -2000,7 +2000,7 @@ const menuItems = [
     },
     img: "assets/img/menu/dessert/avif/almond-jelly.avif",
     filter: "filter-dessert",
-    onclick: "return false;",
+    onclick: "",
     categories: ["dessert", "all"],
     number: "d5"
   },
@@ -2021,7 +2021,7 @@ const menuItems = [
   //   img: "assets/img/menu/dessert/avif/strawberry-almond-jelly.avif",
   //   filter: "filter-dessert",
   //
-  //   onclick: "return false;",
+  //   onclick: "",
   //   categories: ["dessert", "all"],
   //   number: "d6"
   // },
@@ -2048,7 +2048,7 @@ const menuItems = [
     },
     img: "",
     filter: "filter-set",
-    onclick: "return false;",
+    onclick: "",
     categories: ["set", "all"],
     number: "se4"
   },
@@ -2072,7 +2072,7 @@ const menuItems = [
     alt: { "zh-tw": "合五", "en": "set 5" },
     img: "",
     filter: "filter-set",
-    onclick: "return false;",
+    onclick: "",
     categories: ["set", "all"],
     number: "se5"
   },
@@ -2099,7 +2099,7 @@ const menuItems = [
     },
     img: "",
     filter: "filter-set",
-    onclick: "return false;",
+    onclick: "",
     categories: ["set", "all"],
     number: "se6"
   },
@@ -2126,7 +2126,7 @@ const menuItems = [
     },
     img: "",
     filter: "filter-set",
-    onclick: "return false;",
+    onclick: "",
     categories: ["set", "all"],
     number: "se7"
   },
@@ -2153,7 +2153,7 @@ const menuItems = [
     },
     img: "",
     filter: "filter-set",
-    onclick: "return false;",
+    onclick: "",
     categories: ["set", "all"],
     number: "se8"
   },
@@ -2177,7 +2177,7 @@ const menuItems = [
     alt: { "zh-tw": "合九", "en": "set 9" },
     img: "",
     filter: "filter-set",
-    onclick: "return false;",
+    onclick: "",
     categories: ["set", "all"],
     number: "se9"
   },
@@ -2204,7 +2204,7 @@ const menuItems = [
     },
     img: "",
     filter: "filter-set",
-    onclick: "return false;",
+    onclick: "",
     categories: ["set", "all"],
     number: "se10"
   },
@@ -2231,7 +2231,7 @@ const menuItems = [
     },
     img: "",
     filter: "filter-set",
-    onclick: "return false;",
+    onclick: "",
     categories: ["set", "all"],
     number: "se11"
   },
@@ -2258,7 +2258,7 @@ const menuItems = [
     },
     img: "",
     filter: "filter-set",
-    onclick: "return false;",
+    onclick: "",
     categories: ["set", "all"],
     number: "se12"
   },
@@ -2285,7 +2285,7 @@ const menuItems = [
     },
     img: "",
     filter: "filter-set",
-    onclick: "return false;",
+    onclick: "",
     categories: ["set", "all"],
     number: "sd6"
   },
@@ -2312,7 +2312,7 @@ const menuItems = [
     },
     img: "",
     filter: "filter-set",
-    onclick: "return false;",
+    onclick: "",
     categories: ["set", "all"],
     number: "sd12"
   },
