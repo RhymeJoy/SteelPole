@@ -82,6 +82,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    height: 100%; /* 或固定高度，例如 300px */
     border: 1px solid #ddd;
     border-radius: 7.5px;
     padding: 15px;
@@ -89,6 +90,9 @@ body {
     background-color: #212121;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: .15s;
+}
+.product-item > .bottom {
+  margin-top: auto;
 }
 .product-item:hover {
     box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
