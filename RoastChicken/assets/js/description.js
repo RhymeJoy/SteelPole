@@ -14,14 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const item = menuItems.find(i => i.number === num);
   if (!item) {
     console.warn("找不到對應商品:", num);
-
-    // 根據語言導向不同 404 頁
-    if (lang === "en") {
-        window.location.href = "../../404-en.html";
-    } else {
-        window.location.href = "../../404.html";
-    }
-
+    window.location.href = "../404.html";
     return;
   }
 
@@ -93,3 +86,4 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 });
+
