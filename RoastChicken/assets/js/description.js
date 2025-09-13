@@ -17,9 +17,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // 根據語言導向不同 404 頁
     if (lang === "en") {
-        window.location.href = "../404-en.html";
+        window.location.href = "../../404-en.html";
     } else {
-        window.location.href = "../404.html";
+        window.location.href = "../../404.html";
     }
 
     return;
@@ -91,4 +91,5 @@ document.addEventListener("DOMContentLoaded", () => {
   function changeImage(newSrc) {
     mainImage.src = newSrc;
   }
+
 });
