@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
             products.forEach(product => {
                 const categories = product.getAttribute('data-category').split(',');
                 if (filter === 'all' || categories.includes(filter)) {
-                    product.style.display = 'block';
+                    product.style.display = '';
                 } else {
                     product.style.display = 'none';
                 }
@@ -69,10 +69,10 @@ menuItems.forEach(item => {
   productItem.innerHTML = `
     <img data-src="${item.img}" alt="${item.alt[lang]}">
     <h3>${item.name[lang]}</h3>
-    <div style="margin-top: auto;">
+    <div class="bottom">
       <p>${item.price[lang]}</p>
       <a href="${href[lang]}?id=${lang}&number=${item.number}" onclick="${item.onclick}">${details[lang]}</a>
-    <div>
+    </div>
   `;
   productListContainer.appendChild(productItem);
 });

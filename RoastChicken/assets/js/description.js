@@ -6,8 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (!num) {
     console.warn("網址沒有指定商品編號");
-    window.location.href = "../404.html";
-    // history.back(); // 回到上一頁
+    history.back(); // 回到上一頁
     return;
   }
 
@@ -20,8 +19,8 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   const returnHref = {
-    "zh-tw": "../Menu.html",
-    "en": "../Menu-en.html"
+    "zh-tw": "../../Menu.html",
+    "en": "../../Menu-en.html"
   } 
 
   const cat = {
@@ -85,7 +84,4 @@ document.addEventListener("DOMContentLoaded", () => {
   function changeImage(newSrc) {
     mainImage.src = newSrc;
   }
-
 });
-
-

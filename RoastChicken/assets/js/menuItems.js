@@ -1569,7 +1569,7 @@ const menuItems = [
       "zh-tw": "沒圖片",
       "en": "No image"
     },
-    img: "",
+    img: "assets/img/menu/a la carte/avif/Shredded-Pork-Egg-Fried-Rice.avif",
     filter: "filter-staple",
     onclick: "",
     categories: ["staple", "all"],
@@ -1713,11 +1713,16 @@ const menuItems = [
       "zh-tw": "龍膽石斑湯",
       "en": "Giant Grouper Soup"
     },
-    img: "",
+    img: "assets/img/menu/soup/avif/Giant-Grouper-Soup.avif",
     filter: "filter-soups",
     onclick: "",
     categories: ["soup", "all"],
-    number: "s5"
+    number: "s5",
+    images: [
+      "../assets/img/Cuisine/Giant-Grouper-Soup/1.avif",
+      "../assets/img/Cuisine/Giant-Grouper-Soup/2.avif",
+      "../assets/img/Cuisine/Giant-Grouper-Soup/3.avif",
+    ]
   },
   {
     name: {
