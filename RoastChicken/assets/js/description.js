@@ -6,7 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (!num) {
     console.warn("網址沒有指定商品編號");
-    history.back(); // 回到上一頁
+    window.location.href = "../404.html";
+    // history.back(); // 回到上一頁
     return;
   }
 
@@ -86,4 +87,5 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 });
+
 
