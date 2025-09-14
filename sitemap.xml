@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- 首頁 -->
+  <url>
+    <loc>https://rhymejoy.github.io/SteelPole/RoastChicken/index.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://rhymejoy.github.io/SteelPole/RoastChicken/index-en.html</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Menu 頁面 -->
+  <url>
+    <loc>https://rhymejoy.github.io/SteelPole/RoastChicken/Menu.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://rhymejoy.github.io/SteelPole/RoastChicken/Menu-en.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Cuisine 頁面在 Menu 子目錄下 -->
+  <url>
+    <loc>https://rhymejoy.github.io/SteelPole/RoastChicken/Menu/Cuisine.html</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rhymejoy.github.io/SteelPole/RoastChicken/Menu/Cuisine-en.html</loc>
+    <priority>0.7</priority>
+  </url>
+</urlset>
