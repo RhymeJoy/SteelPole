@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rhymejoy.github.io/SteelPole/RoastChicken/sitemap.xml
