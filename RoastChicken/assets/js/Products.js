@@ -1,43 +1,40 @@
 document.addEventListener('DOMContentLoaded', () => {
     const filterButtons = document.querySelectorAll('.category-item');
     const products = document.querySelectorAll('.product-item');
+    const categoryItems = document.querySelectorAll('.category-item');
 
+    // --- 套用篩選 ---
+    function applyFilter(filter) {
+        products.forEach(product => {
+            const categories = product.getAttribute('data-category').split(',');
+            if (filter === 'all' || categories.includes(filter)) {
+                product.style.display = '';
+            } else {
+                product.style.display = 'none';
+            }
+        });
+
+        // 存到 localStorage
+        localStorage.setItem("selectedFilter", filter);
+
+        // 樣式同步
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        document.querySelector(`.category-item[data-filter="${filter}"]`)?.classList.add('active');
+    }
+
+    // --- 綁定按鈕點擊事件 ---
     filterButtons.forEach(button => {
         button.addEventListener('click', () => {
             const filter = button.getAttribute('data-filter');
-
-            products.forEach(product => {
-                const categories = product.getAttribute('data-category').split(',');
-                if (filter === 'all' || categories.includes(filter)) {
-                    product.style.display = '';
-                } else {
-                    product.style.display = 'none';
-                }
-            });
+            applyFilter(filter);
         });
     });
 
+    // --- 載入時讀取 localStorage ---
+    const savedFilter = localStorage.getItem("selectedFilter") || "all";
+    applyFilter(savedFilter);
 
-    window.onload = function() {
-        // 選取該元素
-        var item = document.querySelector('.category-item');
-        
-        // 添加 'active' 類別
-        item.classList.add('active');
-    }
-    
-    
-    const categoryItems = document.querySelectorAll('.category-item');
-
-    categoryItems.forEach(item => {
-        item.addEventListener('click', () => {
-            // 清除所有的選中樣式
-            categoryItems.forEach(i => i.classList.remove('active'));
-            // 為當前點擊的元素添加選中樣式
-            item.classList.add('active');
-        });
-    });
-
+    // --- 原本的 active 切換（已整合進 applyFilter，不再需要） ---
 });
 
 
@@ -77,7 +74,7 @@ menuItems.forEach(item => {
   productListContainer.appendChild(productItem);
 });
 
-// 懶加載
+// --- 懶加載 ---
 const lazyImages = document.querySelectorAll("img[data-src]");
 const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
