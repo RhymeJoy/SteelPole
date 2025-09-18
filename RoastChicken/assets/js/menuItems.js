@@ -1139,14 +1139,18 @@ const menuItems = [
       "en": "" 
     },
     alt: {
-      "zh-tw": "沒圖片",
-      "en": "No image"
+      "zh-tw": "櫻花娃娃菜",
+      "en": "Stir-Fried-Baby-Cabbage-Sakura-Shrimp"
     },
-    img: "",
+    img: "assets/img/menu/a la carte/avif/Stir-Fried-Baby-Cabbage-Sakura-Shrimp.avif",
     filter: "filter-dish",
     onclick: "",
     categories: ["dish", "all"],
-    number: "44"
+    number: "44",
+    images: [
+      "../assets/img/Cuisine/Stir-Fried-Baby-Cabbage-Sakura-Shrimp/1.avif",
+      "../assets/img/Cuisine/Stir-Fried-Baby-Cabbage-Sakura-Shrimp/2.avif",
+    ]
   },
   {
     name: {
@@ -2044,14 +2048,14 @@ const menuItems = [
       "en": "Roasted Steel-Pole Chicken, Stir-Fried Wild Spiny Stems, Stir-Fried Chicken Tendons with Tomatoes, Japanese-Style Peanut Tofu with Savory Sauce, Radish and Pork Rib Soup"
     },
     detail:{
-      "zh-tw": "",
-      "en": "" 
+      "zh-tw": "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蘿蔔排骨湯。附上四碗白飯，並贈送當日水果和當日甜點。",
+      "en": "Roasted Steel-Pole Chicken, Stir-Fried Wild Spiny Stems, Stir-Fried Chicken Tendons with Tomatoes, Japanese-Style Peanut Tofu with Savory Sauce, Radish and Pork Rib Soup. Served with four bowls of rice, plus complimentary fruit of the day and dessert of the day."
     },
     alt: {
       "zh-tw": "合四",
       "en": "set 4"
     },
-    img: "",
+    img: "assets/img/menu/set/e4.avif",
     filter: "filter-set",
     onclick: "",
     categories: ["set", "all"],
@@ -2071,11 +2075,11 @@ const menuItems = [
       "en": "Roasted Steel-Pole Chicken, Stir-Fried Wild Spiny Stems, Stir-Fried Chicken Tendons with Tomatoes, Japanese-Style Peanut Tofu with Savory Sauce, Steamed Fish, Radish and Pork Rib Soup"
     },
     detail:{
-      "zh-tw": "",
-      "en": "" 
+      "zh-tw": "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、蘿蔔排骨湯。附上五碗白飯，並贈送當日水果和當日甜點。",
+      "en": "Roasted Steel-Pole Chicken, Stir-Fried Wild Spiny Stems, Stir-Fried Chicken Tendons with Tomatoes, Japanese-Style Peanut Tofu with Savory Sauce, Steamed Fish, Radish and Pork Rib Soup. Served with five bowls of rice, plus complimentary fruit of the day and dessert of the day."
     },
     alt: { "zh-tw": "合五", "en": "set 5" },
-    img: "",
+    img: "assets/img/menu/set/e5.avif",
     filter: "filter-set",
     onclick: "",
     categories: ["set", "all"],
@@ -2095,14 +2099,14 @@ const menuItems = [
       "en": "Roasted Steel-Pole Chicken, Stir-Fried Wild Spiny Stems, Stir-Fried Chicken Tendons with Tomatoes, Japanese-Style Peanut Tofu with Savory Sauce, Steamed Fish, Dongpo Pork, Radish and Pork Rib Soup"
     },
     detail:{
-      "zh-tw": "",
-      "en": "" 
+      "zh-tw": "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蘿蔔排骨湯。附上六碗白飯，並贈送當日水果和當日甜點。",
+      "en": "Roasted Steel-Pole Chicken, Stir-Fried Wild Spiny Stems, Stir-Fried Chicken Tendons with Tomatoes, Japanese-Style Peanut Tofu with Savory Sauce, Steamed Fish, Dongpo Pork, Radish and Pork Rib Soup. Served with six bowls of rice, plus complimentary fruit of the day and dessert of the day."
     },
     alt: {
       "zh-tw": "合六",
       "en": "set 6"
     },
-    img: "",
+    img: "assets/img/menu/set/e6.avif",
     filter: "filter-set",
     onclick: "",
     categories: ["set", "all"],
@@ -2122,14 +2126,14 @@ const menuItems = [
       "en": "Roasted Steel-Pole Chicken, Stir-Fried Wild Spiny Stems, Stir-Fried Chicken Tendons with Tomatoes, Japanese-Style Peanut Tofu with Savory Sauce, Steamed Fish, Dongpo Pork, Crab Meat Salad, Radish and Pork Rib Soup"
     },
     detail:{
-      "zh-tw": "",
-      "en": "" 
+      "zh-tw": "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蟹肉沙拉、蘿蔔排骨湯。附上七碗白飯，並贈送當日水果和當日甜點。",
+      "en": "Roasted Steel-Pole Chicken, Stir-Fried Wild Spiny Stems, Stir-Fried Chicken Tendons with Tomatoes, Japanese-Style Peanut Tofu with Savory Sauce, Steamed Fish, Dongpo Pork, Crab Meat Salad, Radish and Pork Rib Soup. Served with seven bowls of rice, plus complimentary fruit of the day and dessert of the day."
     },
     alt: {
       "zh-tw": "合七",
       "en": "set 7"
     },
-    img: "",
+    img: "assets/img/menu/set/e7.avif",
     filter: "filter-set",
     onclick: "",
     categories: ["set", "all"],
@@ -2149,14 +2153,14 @@ const menuItems = [
       "en": "Roasted Steel-Pole Chicken, Stir-Fried Wild Spiny Stems, Stir-Fried Chicken Tendons with Tomatoes, Japanese-Style Peanut Tofu with Savory Sauce, Steamed Fish, Dongpo Pork, Crab Meat Salad, Yam & Mochi Duo, Radish and Pork Rib Soup"
     },
     detail:{
-      "zh-tw": "",
-      "en": "" 
+      "zh-tw": "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蟹肉沙拉、山藥雙拼、蘿蔔排骨湯。附上八碗白飯，並贈送當日水果和當日甜點。",
+      "en": "Roasted Steel-Pole Chicken, Stir-Fried Wild Spiny Stems, Stir-Fried Chicken Tendons with Tomatoes, Japanese-Style Peanut Tofu with Savory Sauce, Steamed Fish, Dongpo Pork, Crab Meat Salad, Yam & Mochi Duo, Radish and Pork Rib Soup. Served with eight bowls of rice, plus complimentary fruit of the day and dessert of the day."
     },
     alt: {
       "zh-tw": "合八",
       "en": "set 8"
     },
-    img: "",
+    img: "assets/img/menu/set/e8.avif",
     filter: "filter-set",
     onclick: "",
     categories: ["set", "all"],
@@ -2176,11 +2180,11 @@ const menuItems = [
       "en": "Roasted Steel-Pole Chicken, Stir-Fried Wild Spiny Stems, Stir-Fried Chicken Tendons with Tomatoes, Japanese-Style Peanut Tofu with Savory Sauce, Steamed Fish, Dongpo Pork, Crab Meat Salad, Yam & Mochi Duo, Stir-Fried Pork Intestines with Ginger, Radish and Pork Rib Soup"
     },
     detail:{
-      "zh-tw": "",
-      "en": "" 
+      "zh-tw": "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蟹肉沙拉、山藥雙拼、薑絲大腸、蘿蔔排骨湯。附上九碗白飯，並贈送當日水果和當日甜點。",
+      "en": "Roasted Steel-Pole Chicken, Stir-Fried Wild Spiny Stems, Stir-Fried Chicken Tendons with Tomatoes, Japanese-Style Peanut Tofu with Savory Sauce, Steamed Fish, Dongpo Pork, Crab Meat Salad, Yam & Mochi Duo, Stir-Fried Pork Intestines with Ginger, Radish and Pork Rib Soup. Served with nine bowls of rice, plus complimentary fruit of the day and dessert of the day."
     },
     alt: { "zh-tw": "合九", "en": "set 9" },
-    img: "",
+    img: "assets/img/menu/set/e9.avif",
     filter: "filter-set",
     onclick: "",
     categories: ["set", "all"],
@@ -2200,14 +2204,14 @@ const menuItems = [
       "en": "Roasted Steel-Pole Chicken, Stir-Fried Wild Spiny Stems, Stir-Fried Chicken Tendons with Tomatoes, Japanese-Style Peanut Tofu with Savory Sauce, Steamed Fish, Dongpo Pork, Crab Meat Salad, Yam & Mochi Duo, Stir-Fried Pork Intestines with Ginger, Stir-Fried Shrimp with Sweet Peas, Radish and Pork Rib Soup"
     },
     detail:{
-      "zh-tw": "",
-      "en": "" 
+      "zh-tw": "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蟹肉沙拉、山藥雙拼、薑絲大腸、甜豆燴蝦仁、蘿蔔排骨湯。附上十碗白飯，並贈送當日水果和當日甜點。",
+      "en": "Roasted Steel-Pole Chicken, Stir-Fried Wild Spiny Stems, Stir-Fried Chicken Tendons with Tomatoes, Japanese-Style Peanut Tofu with Savory Sauce, Steamed Fish, Dongpo Pork, Crab Meat Salad, Yam & Mochi Duo, Stir-Fried Pork Intestines with Ginger, Stir-Fried Shrimp with Sweet Peas, Radish and Pork Rib Soup. Served with ten bowls of rice, plus complimentary fruit of the day and dessert of the day."
     },
     alt: {
       "zh-tw": "合十",
       "en": "set 10"
     },
-    img: "",
+    img: "assets/img/menu/set/e10.avif",
     filter: "filter-set",
     onclick: "",
     categories: ["set", "all"],
@@ -2227,14 +2231,14 @@ const menuItems = [
       "en": "Roasted Steel-Pole Chicken, Stir-Fried Wild Spiny Stems, Stir-Fried Chicken Tendons with Tomatoes, Japanese-Style Peanut Tofu with Savory Sauce, Steamed Fish, Dongpo Pork, Crab Meat Salad, Yam & Mochi Duo, Stir-Fried Pork Intestines with Ginger, Stir-Fried Shrimp with Sweet Peas, Stir-Fried White Shrimp, Radish and Pork Rib Soup"
     },
     detail:{
-      "zh-tw": "",
-      "en": "" 
+      "zh-tw": "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蟹肉沙拉、山藥雙拼、薑絲大腸、甜豆燴蝦仁、清炒白蝦、蘿蔔排骨湯。附上十一碗白飯，並贈送當日水果和當日甜點。",
+      "en": "Roasted Steel-Pole Chicken, Stir-Fried Wild Spiny Stems, Stir-Fried Chicken Tendons with Tomatoes, Japanese-Style Peanut Tofu with Savory Sauce, Steamed Fish, Dongpo Pork, Crab Meat Salad, Yam & Mochi Duo, Stir-Fried Pork Intestines with Ginger, Stir-Fried Shrimp with Sweet Peas, Stir-Fried White Shrimp, Radish and Pork Rib Soup. Served with eleven bowls of rice, plus complimentary fruit of the day and dessert of the day."
     },
     alt: {
       "zh-tw": "合十一",
       "en": "set 11"
     },
-    img: "",
+    img: "assets/img/menu/set/e11.avif",
     filter: "filter-set",
     onclick: "",
     categories: ["set", "all"],
@@ -2254,14 +2258,14 @@ const menuItems = [
       "en": "Roasted Steel-Pole Chicken, Stir-Fried Wild Spiny Stems, Stir-Fried Chicken Tendons with Tomatoes, Japanese-Style Peanut Tofu with Savory Sauce, Steamed Fish, Dongpo Pork, Crab Meat Salad, Yam & Mochi Duo, Stir-Fried Pork Intestines with Ginger, Stir-Fried Shrimp with Sweet Peas, Stir-Fried White Shrimp, Stir-Fried Loofah with Clams, Radish and Pork Rib Soup"
     },
     detail:{
-      "zh-tw": "",
-      "en": "" 
+      "zh-tw": "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蟹肉沙拉、山藥雙拼、薑絲大腸、甜豆燴蝦仁、清炒白蝦、蛤蠣炒絲瓜、蘿蔔排骨湯。附上十二碗白飯，並贈送當日水果和當日甜點。",
+      "en": "Roasted Steel-Pole Chicken, Stir-Fried Wild Spiny Stems, Stir-Fried Chicken Tendons with Tomatoes, Japanese-Style Peanut Tofu with Savory Sauce, Steamed Fish, Dongpo Pork, Crab Meat Salad, Yam & Mochi Duo, Stir-Fried Pork Intestines with Ginger, Stir-Fried Shrimp with Sweet Peas, Stir-Fried White Shrimp, Stir-Fried Loofah with Clams, Radish and Pork Rib Soup. Served with twelve bowls of rice, plus complimentary fruit of the day and dessert of the day."
     },
     alt: {
       "zh-tw": "合十二",
       "en": "set 12"
     },
-    img: "",
+    img: "assets/img/menu/set/e12.avif",
     filter: "filter-set",
     onclick: "",
     categories: ["set", "all"],
@@ -2281,14 +2285,14 @@ const menuItems = [
       "en": "Roasted Steel-Pole Chicken, (Steamed Fish / Sweet and Sour Crispy Yellow Croaker), Dongpo Pork, Stir-Fried Cabbage with Sakura Shrimp, Stir-Fried Crab Meat with Betel Palm Heart, Shark Fin Broth, Pork Rib Soup with Yam and Pumpkin"
     },
     detail:{
-      "zh-tw": "",
-      "en": "" 
+      "zh-tw": "鋼管雞、蒸(糖醋黃)魚、東坡肉、櫻花蝦高麗菜、半天筍花燴蟹肉、魚翅羹、山藥南瓜排骨湯。附上六碗白飯，並贈送當日水果和當日甜點。",
+      "en": "Roasted Steel-Pole Chicken, (Steamed Fish / Sweet and Sour Crispy Yellow Croaker), Dongpo Pork, Stir-Fried Cabbage with Sakura Shrimp, Stir-Fried Crab Meat with Betel Palm Heart, Shark Fin Broth, Pork Rib Soup with Yam and Pumpkin. Served with six bowls of rice, plus complimentary fruit of the day and dessert of the day."
     },
     alt: {
       "zh-tw": "團六",
       "en": "Deluxe 6"
     },
-    img: "",
+    img: "assets/img/menu/set/d6.avif",
     filter: "filter-set",
     onclick: "",
     categories: ["set", "all"],
@@ -2308,14 +2312,14 @@ const menuItems = [
       "en": "Roasted Steel-Pole Chicken, (Steamed Fish / Sweet and Sour Crispy Yellow Croaker), Yam & Mochi Duo, Crab Meat Salad, Japanese Scallops, Stir-Fried White Shrimp, Stir-Fried Bok Choy with Ostrich Meat, Stir-Fried Shrimp with Sweet Peas, Dongpo Pork, Stir-Fried Cabbage with Sakura Shrimp, Stir-Fried Crab Meat with Betel Palm Heart, Shark Fin Broth, Pork Rib Soup with Yam and Pumpkin"
     },
     detail:{
-      "zh-tw": "",
-      "en": "" 
+      "zh-tw": "鋼管雞、蒸(糖醋黃)魚、山藥雙拼、蟹肉沙拉、日本扇貝、清炒白蝦、清炒鴕鳥肉、甜豆燴蝦仁、東坡肉、櫻花蝦高麗菜、半天筍花燴蟹肉、魚翅羹、山藥南瓜排骨湯。附上十二碗白飯，並贈送當日水果和當日甜點。",
+      "en": "Roasted Steel-Pole Chicken, (Steamed Fish / Sweet and Sour Crispy Yellow Croaker), Yam & Mochi Duo, Crab Meat Salad, Japanese Scallops, Stir-Fried White Shrimp, Stir-Fried Bok Choy with Ostrich Meat, Stir-Fried Shrimp with Sweet Peas, Dongpo Pork, Stir-Fried Cabbage with Sakura Shrimp, Stir-Fried Crab Meat with Betel Palm Heart, Shark Fin Broth, Pork Rib Soup with Yam and Pumpkin. Served with twelve bowls of rice, plus complimentary fruit of the day and dessert of the day."
     },
     alt: {
       "zh-tw": "團十二",
       "en": "Deluxe 12"
     },
-    img: "",
+    img: "assets/img/menu/set/d12.avif",
     filter: "filter-set",
     onclick: "",
     categories: ["set", "all"],
