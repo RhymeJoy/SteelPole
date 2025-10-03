@@ -881,7 +881,7 @@ const menuItems = [
       "zh-tw": "馬蹄條",
       "en": "Crispy Water Chestnut Sticks"
     },
-    price: p200,
+    price: p150,
     description: {
       "zh-tw": "以新鮮荸薺切條酥炸，外皮金黃酥脆，咬下清甜脆口，別具風味。",
       "en": "Fresh water chestnuts cut into sticks and deep-fried until golden and crispy — each bite is sweet, crunchy, and full of delightful flavor"
@@ -1242,7 +1242,7 @@ const menuItems = [
       "zh-tw": "沒圖片",
       "en": "No image"
     },
-    img: "",
+    img: "assets/img/menu/a la carte/avif/Stir-Fried-Giant-Tiger-Prawn.avif",
     filter: "filter-dish",
     onclick: "",
     categories: ["dish", "all"],
