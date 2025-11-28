@@ -1021,7 +1021,7 @@ const menuItems = [
       "zh-tw": "半天筍花燴蟹肉",
       "en": "Stir-Fried Crab Meat with Betel Palm Heart"
     },
-    price: p350,
+    price: p400,
     description: {
       "zh-tw": "半天筍花脆嫩、蟹肉鮮美——快炒後香氣迷人，每一口都令人回味無窮！",
       "en": "Tender Betel Palm Heart and fresh crab meat, quickly stir-fried to release fragrant aromas — each bite bursts with delicate flavor and texture!"
@@ -2319,4 +2319,5 @@ const menuItems = [
   },
 
 ];
+
 
