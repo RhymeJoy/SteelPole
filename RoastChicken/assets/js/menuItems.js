@@ -52,10 +52,6 @@ const p450 = {
   "zh-tw": "450元",
   "en": "NT$450"
 };
-const p460 = {
-  "zh-tw": "460元",
-  "en": "NT$460"
-};
 const p500 = {
   "zh-tw": "500元",
   "en": "NT$500"
@@ -2323,3 +2319,4 @@ const menuItems = [
   },
 
 ];
+
