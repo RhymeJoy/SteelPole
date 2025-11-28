@@ -227,7 +227,7 @@ const menuItems = [
       "zh-tw": "東坡肉",
       "en": "Dongpo Pork"
     },
-    price: p460,
+    price: p500,
     description: {
       "zh-tw": "選用優質五花肉，經慢火紅燒至軟嫩入味，色澤紅亮，肥而不膩，入口即化，醬香濃郁，每一口都是傳統經典的味道。",
       "en": "Premium pork belly, slowly braised until tender and flavorful, with a glossy reddish hue. Rich yet not greasy, it melts in your mouth with every bite, delivering the deep, savory taste of this traditional classic."
@@ -275,7 +275,7 @@ const menuItems = [
       "zh-tw": "山藥雙拼",
       "en": "Yam & Mochi Duo"
     },
-    price: p250,
+    price: p300,
     description: {
       "zh-tw": "精選新鮮山藥，外酥內軟油炸至金黃，再搭配甜而不膩的麻糬冰捲，每一口都是香酥、軟糯與冰涼的完美結合，讓甜點時光更愉快。",
       "en": "A delightful duo featuring freshly selected yam, fried to golden crispiness outside yet soft inside, paired with two kinds of mochi ice rolls — sweet but not heavy. Each bite combines crispy, soft, and chilled textures for a perfect dessert experience."
@@ -323,7 +323,7 @@ const menuItems = [
       "zh-tw": "甜豆燴蝦仁",
       "en": "Stir-Fried Shrimp with Sweet Peas"
     },
-    price: p300,
+    price: p350,
     description: {
       "zh-tw": "蝦仁鮮嫩、甜豆爽脆，色彩鮮亮、口感多層次，是餐桌上不可錯過的美味佳餚！",
       "en": "Tender shrimp and crisp sweet peas come together in a colorful, multi-textured dish that’s a must-have on any dining table!"
@@ -929,7 +929,7 @@ const menuItems = [
       "zh-tw": "糖醋黃魚",
       "en": "Sweet & Sour Crispy Yellow Croaker"
     },
-    price: p450,
+    price: p500,
     description: {
       "zh-tw": "酥脆的黃魚包裹酸甜醬汁，鮮美多汁——糖醋黃魚帶來每一口都讓人停不下來的美味！",
       "en": "Crispy yellow croaker coated in a tangy sweet and sour sauce, juicy and flavorful — every bite is irresistibly delicious!"
@@ -1102,10 +1102,7 @@ const menuItems = [
       "zh-tw": "美人腿燴蟹肉",
       "en": "Stir-Fried Water Bamboo with Crab Meat"
     },
-    price: {
-      "zh-tw": "350元",
-      "en": "NT$350"
-    },
+    price: p400,
     description: {
       "zh-tw": "嫩脆的水竹筍（美人腿）與鮮美蟹肉一同燴煮，融合清甜與鮮香，是饕客必嚐的台味佳餚。",
       "en": "Tender and crisp water bamboo shoots braised with fresh crab meat, blending natural sweetness and savory flavors. A must-try Taiwanese delicacy for seafood lovers."
@@ -1272,31 +1269,30 @@ const menuItems = [
     categories: ["dish", "all"],
     number: "49"
   },
-  // {
-  //   name: {
-  //     "zh-tw": "蘆筍蝦仁",
-  //     "en": "Stir-Fried Asparagus with Shrimp"
-  //   },
-  //   price: p250,
-  //   description: {
-  //     "zh-tw": "精選新鮮蘆筍與鮮嫩蝦仁快炒，保留爽脆口感與鮮甜味道，每一口都香氣四溢，是下飯與宴客的經典佳餚。",
-  //     "en": "Fresh asparagus stir-fried with tender shrimp, preserving crisp texture and natural sweetness — a flavorful and classic dish perfect for both everyday meals and special occasions."
-  //   },
-  //   detail:{
-  //     "zh-tw": "",
-  //     "en": "" 
-  //   },
-  //   alt: {
-  //     "zh-tw": "蘆筍蝦仁",
-  //     "en": "Asparagus with Shrimp"
-  //   },
-  //   img: "",
-  //   filter: "filter-dish",
-  //
-  //   onclick: "",
-  //   categories: ["dish", "all"],
-  //   number: "50"
-  // },
+  {
+    name: {
+      "zh-tw": "蘆筍蝦仁",
+      "en": "Stir-Fried Asparagus with Shrimp"
+    },
+    price: p300,
+    description: {
+      "zh-tw": "精選新鮮蘆筍與鮮嫩蝦仁快炒，保留爽脆口感與鮮甜味道，每一口都香氣四溢，是下飯與宴客的經典佳餚。",
+      "en": "Fresh asparagus stir-fried with tender shrimp, preserving crisp texture and natural sweetness — a flavorful and classic dish perfect for both everyday meals and special occasions."
+    },
+    detail:{
+      "zh-tw": "",
+      "en": "" 
+    },
+    alt: {
+      "zh-tw": "蘆筍蝦仁",
+      "en": "Asparagus with Shrimp"
+    },
+    img: "",
+    filter: "filter-dish",
+    onclick: "",
+    categories: ["dish", "all"],
+    number: "50"
+  },
   {
     name: {
       "zh-tw": "竹筍沙拉",
@@ -1326,7 +1322,7 @@ const menuItems = [
       "zh-tw": "滑蛋蝦仁",
       "en": "Shrimp with Scrambled Eggs"
     },
-    price: p350,
+    price: p400,
     description: {
       "zh-tw": "精選蝦仁快炒至熟，拌入滑嫩蛋液，口感柔滑鮮甜，是經典家常佳餚。",
       "en": "Fresh shrimp quickly stir-fried and mixed with creamy scrambled eggs, offering a smooth and sweet flavor — a classic home-style dish."
@@ -1350,7 +1346,7 @@ const menuItems = [
       "zh-tw": "滑蛋蟹肉",
       "en": "Crab with Scrambled Eggs"
     },
-    price: p350,
+    price: p400,
     description: {
       "zh-tw": "精選蟹肉快炒入滑蛋，蛋香與蟹肉鮮味完美融合，是宴客經典菜餚。",
       "en": "Fresh crab meat quickly stir-fried and mixed with creamy scrambled eggs, offering a smooth and sweet flavor — a classic home-style dish."
@@ -1733,7 +1729,7 @@ const menuItems = [
       "zh-tw": "山藥南瓜排骨湯",
       "en": "Pork Rib Soup with Yam and Pumpkin"
     },
-    price: p300,
+    price: p350,
     description: {
       "zh-tw": "精選排骨慢火熬煮，加入山藥與南瓜，湯頭甘甜鮮美，是健康家常滋補湯品。",
       "en": "Tender pork ribs simmered with yam and pumpkin, creating a naturally sweet and comforting broth — rich in flavor and perfect for warming the soul."
@@ -2325,4 +2321,5 @@ const menuItems = [
     categories: ["set", "all"],
     number: "sd12"
   },
+
 ];
