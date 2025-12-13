@@ -2269,8 +2269,8 @@ const menuItems = [
       "en": "Deluxe Set: Six Dishes with One Soup"
     },
     price: {
-      "zh-tw": "3000元",
-      "en": "NT$3000"
+      "zh-tw": "3200元",
+      "en": "NT$3200"
     },
     description: {
       "zh-tw": "鋼管雞、蒸(糖醋黃)魚、東坡肉、櫻花蝦高麗菜、半天筍花燴蟹肉、魚翅羹、山藥南瓜排骨湯",
@@ -2296,8 +2296,8 @@ const menuItems = [
       "en": "Deluxe Set: Twelve Dishes with One Soup"
     },
     price: {
-      "zh-tw": "4800元",
-      "en": "NT$4800"
+      "zh-tw": "5300元",
+      "en": "NT$5300"
     },
     description: {
       "zh-tw": "鋼管雞、蒸(糖醋黃)魚、山藥雙拼、蟹肉沙拉、日本扇貝、清炒白蝦、清炒鴕鳥肉、甜豆燴蝦仁、東坡肉、櫻花蝦高麗菜、半天筍花燴蟹肉、魚翅羹、山藥南瓜排骨湯",
@@ -2319,5 +2319,6 @@ const menuItems = [
   },
 
 ];
+
 
 
