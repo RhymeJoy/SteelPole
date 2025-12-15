@@ -803,12 +803,12 @@ const menuItems = [
   {
     name: {
       "zh-tw": "蛋炒雨來菇",
-      "en": "Stir-fried Star Jelly with Scrambled Egg"
+      "en": "Stir-fried Star Mushroom with Scrambled Egg"
     },
     price: p200,
     description: {
       "zh-tw": "雨來菇清脆滑嫩，口感清爽，清甜香氣撲鼻——，保留脆嫩口感，簡單快炒後清爽可口，是健康下飯佳品！",
-      "en": "Star Jelly is crisp and tender, with a refreshing texture and sweet aroma — retaining its crunchiness, it is quickly stir-fried for a healthy and delicious dish!"
+      "en": "Star Mushroom is crisp and tender, with a refreshing texture and sweet aroma — retaining its crunchiness, it is quickly stir-fried for a healthy and delicious dish!"
     },
     detail:{
       "zh-tw": "",
@@ -816,7 +816,7 @@ const menuItems = [
     },
     alt: {
       "zh-tw": "蛋炒雨來菇",
-      "en": "Star Jelly with Egg"
+      "en": "Star Mushroom with Egg"
     },
     img: "assets/img/menu/a la carte/avif/star-jelly.avif",
     filter: "filter-dish",
@@ -2319,6 +2319,7 @@ const menuItems = [
   },
 
 ];
+
 
 
 
