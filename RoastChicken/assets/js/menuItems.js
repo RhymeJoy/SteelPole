@@ -2029,7 +2029,7 @@ const menuItems = [
   {
     name: {
       "zh-tw": "經濟四菜一湯",
-      "en": "Economical Set: Four Dishes with One Soup"
+      "en": "Value Set: Four Dishes with One Soup"
     },
     price: {
       "zh-tw": "1350元",
@@ -2056,7 +2056,7 @@ const menuItems = [
   {
     name: {
       "zh-tw": "經濟五菜一湯",
-      "en": "Economical Set: Five Dishes with One Soup"
+      "en": "Value Set: Five Dishes with One Soup"
     },
     price: {
       "zh-tw": "1650元",
@@ -2080,7 +2080,7 @@ const menuItems = [
   {
     name: {
       "zh-tw": "經濟六菜一湯",
-      "en": "Economical Set: Six Dishes with One Soup"
+      "en": "Value Set: Six Dishes with One Soup"
     },
     price: {
       "zh-tw": "1900元",
@@ -2107,7 +2107,7 @@ const menuItems = [
   {
     name: {
       "zh-tw": "經濟七菜一湯",
-      "en": "Economical Set: Seven Dishes with One Soup"
+      "en": "Value Set: Seven Dishes with One Soup"
     },
     price: {
       "zh-tw": "2100元",
@@ -2134,7 +2134,7 @@ const menuItems = [
   {
     name: {
       "zh-tw": "經濟八菜一湯",
-      "en": "Economical Set: Eight Dishes with One Soup"
+      "en": "Value Set: Eight Dishes with One Soup"
     },
     price: {
       "zh-tw": "2400元",
@@ -2161,7 +2161,7 @@ const menuItems = [
   {
     name: {
       "zh-tw": "經濟九菜一湯",
-      "en": "Economical Set: Nine Dishes with One Soup"
+      "en": "Value Set: Nine Dishes with One Soup"
     },
     price: {
       "zh-tw": "2600元",
@@ -2185,7 +2185,7 @@ const menuItems = [
   {
     name: {
       "zh-tw": "經濟十菜一湯",
-      "en": "Economical Set: Ten Dishes with One Soup"
+      "en": "Value Set: Ten Dishes with One Soup"
     },
     price: {
       "zh-tw": "2800元",
@@ -2212,7 +2212,7 @@ const menuItems = [
   {
     name: {
       "zh-tw": "經濟十一菜一湯",
-      "en": "Economical Set: Eleven Dishes with One Soup"
+      "en": "Value Set: Eleven Dishes with One Soup"
     },
     price: {
       "zh-tw": "3100元",
@@ -2239,7 +2239,7 @@ const menuItems = [
   {
     name: {
       "zh-tw": "經濟十二菜一湯",
-      "en": "Economical Set: Twelve Dishes with One Soup"
+      "en": "Value Set: Twelve Dishes with One Soup"
     },
     price: {
       "zh-tw": "3300元",
@@ -2319,6 +2319,7 @@ const menuItems = [
   },
 
 ];
+
 
 
 
