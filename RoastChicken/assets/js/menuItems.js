@@ -1597,6 +1597,30 @@ const menuItems = [
   },
   {
     name: {
+      "zh-tw": "麻油米糕",
+      "en": "Glutinous Rice with Sesame Oil"
+    },
+    price: p350,
+    description: {
+      "zh-tw": "傳統台式米糕，吸滿香濃麻油，口感軟糯，每口都是經典台味。",
+      "en": "A traditional Taiwanese sticky rice dish infused with rich sesame oil aroma, soft and chewy in texture — every bite brings a taste of authentic Taiwanese heritage."
+    },
+    detail:{
+      "zh-tw": "",
+      "en": "" 
+    },
+    alt: {
+      "zh-tw": "麻油米糕",
+      "en": "Glutinous Rice with Sesame Oil"
+    },
+    img: "assets/img/menu/a la carte/avif/sesame-oil-glutinous-rice.avif",
+    filter: "filter-staple",
+    onclick: "",
+    categories: ["staple", "all"],
+    number: "sp6"
+  },
+  {
+    name: {
       "zh-tw": "魚翅羹",
       "en": "Shark Fin Broth"
     },
@@ -2319,6 +2343,7 @@ const menuItems = [
   },
 
 ];
+
 
 
 
