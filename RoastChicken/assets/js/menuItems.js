@@ -1411,26 +1411,26 @@ const menuItems = [
   },
   {
     name: {
-      "zh-tw": "麻油米糕",
-      "en": "Glutinous Rice with Sesame Oil"
+      "zh-tw": "紅燒烏魚膘",
+      "en": "Fried Mullet Milt in Soy-Braised Sauce"
     },
     price: p350,
     description: {
-      "zh-tw": "傳統台式米糕，吸滿香濃麻油，口感軟糯，每口都是經典台味。",
-      "en": "A traditional Taiwanese sticky rice dish infused with rich sesame oil aroma, soft and chewy in texture — every bite brings a taste of authentic Taiwanese heritage."
+      "zh-tw": "",
+      "en": ""
     },
     detail:{
       "zh-tw": "",
       "en": "" 
     },
     alt: {
-      "zh-tw": "麻油米糕",
-      "en": "Glutinous Rice with Sesame Oil"
+      "zh-tw": "紅燒烏魚膘",
+      "en": "Fried Mullet Milt in Soy-Braised Sauce"
     },
-    img: "assets/img/menu/a la carte/avif/sesame-oil-glutinous-rice.avif",
-    filter: "filter-staple",
+    img: "",
+    filter: "filter-dish",
     onclick: "",
-    categories: ["staple", "all"],
+    categorstaple: ["dish", "all"],
     number: "56"
   },
   {
@@ -2343,6 +2343,7 @@ const menuItems = [
   },
 
 ];
+
 
 
 
