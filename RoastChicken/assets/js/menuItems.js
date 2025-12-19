@@ -1416,8 +1416,8 @@ const menuItems = [
     },
     price: p450,
     description: {
-      "zh-tw": "",
-      "en": ""
+      "zh-tw": "嚴選新鮮烏魚膘，先以高溫酥炸至外皮金黃酥脆，再以醬油與特製醬汁紅燒收味。外酥內嫩、口感濃郁細緻，鹹香回甘，是道地經典的風味佳餚。",
+      "en": "Premium mullet milt is deep-fried until golden and crispy, then gently braised in a savory soy-based sauce. Crisp on the outside, tender and creamy within, delivering a rich and satisfying umami flavor."
     },
     detail:{
       "zh-tw": "",
@@ -2343,6 +2343,7 @@ const menuItems = [
   },
 
 ];
+
 
 
 
