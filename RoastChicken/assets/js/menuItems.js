@@ -1414,7 +1414,7 @@ const menuItems = [
       "zh-tw": "紅燒烏魚膘",
       "en": "Fried Mullet Milt in Soy-Braised Sauce"
     },
-    price: p350,
+    price: p450,
     description: {
       "zh-tw": "",
       "en": ""
@@ -2343,6 +2343,7 @@ const menuItems = [
   },
 
 ];
+
 
 
 
