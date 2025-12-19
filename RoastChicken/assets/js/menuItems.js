@@ -1497,7 +1497,7 @@ const menuItems = [
     filter: "filter-staple",
     onclick: "",
     categories: ["staple", "all"],
-    number: "59"
+    number: "sp1"
   },
   {
     name: {
@@ -1521,7 +1521,7 @@ const menuItems = [
     filter: "filter-staple",
     onclick: "",
     categories: ["staple", "all"],
-    number: "60"
+    number: "sp2"
   },
   {
     name: {
@@ -1545,7 +1545,7 @@ const menuItems = [
     filter: "filter-staple",
     onclick: "",
     categories: ["staple", "all"],
-    number: "61"
+    number: "sp3"
   },
   {
     name: {
@@ -2319,6 +2319,7 @@ const menuItems = [
   },
 
 ];
+
 
 
 
