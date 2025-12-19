@@ -1569,7 +1569,7 @@ const menuItems = [
     filter: "filter-staple",
     onclick: "",
     categories: ["staple", "all"],
-    number: "62"
+    number: "sp4"
   },
   {
     name: {
@@ -2319,6 +2319,7 @@ const menuItems = [
   },
 
 ];
+
 
 
 
