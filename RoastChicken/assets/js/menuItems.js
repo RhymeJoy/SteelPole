@@ -295,7 +295,7 @@ const menuItems = [
       "zh-tw": "薑絲大腸",
       "en": "Stir-Fried Pork Intestines with Ginger"
     },
-    price: p200,
+    price: p250,
     description: {
       "zh-tw": "精選新鮮大腸，去腥處理後與薑絲一同快炒，保留彈牙口感，香氣濃郁，每一口都是下飯的經典味道。",
       "en": "Freshly selected pork intestines, carefully cleaned to remove any odor, stir-fried with julienned ginger. Retains a chewy texture and rich aroma, making every bite a classic, flavorful dish perfect with rice.."
@@ -2343,6 +2343,7 @@ const menuItems = [
   },
 
 ];
+
 
 
 
