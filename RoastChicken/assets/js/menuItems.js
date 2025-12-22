@@ -2002,51 +2002,50 @@ const menuItems = [
     categories: ["dessert", "all"],
     number: "d4"
   },
-  // {
-  //   name: {
-  //     "zh-tw": "杏仁凍",
-  //     "en": "Almond Jelly"
-  //   },
-  //   price: p10,
-  //   description: {
-  //     "zh-tw": "以杏仁粉製作，這款手工杏仁凍口感滑嫩清爽，杏仁香氣濃郁，是餐後完美的輕甜點。",
-  //     "en": "Made from almond powder, this handmade almond jelly is smooth, refreshing, and rich in almond aroma — a perfect light dessert to finish your meal."
-  //   },
-  //   detail:{
-  //     "zh-tw": "",
-  //     "en": "" 
-  //   },
-  //   alt: {
-  //     "zh-tw": "杏仁凍",
-  //     "en": "Almond Jelly"
-  //   },
-  //   img: "assets/img/menu/dessert/avif/almond-jelly.avif",
-  //   filter: "filter-dessert",
-  //   onclick: "",
-  //   categories: ["dessert", "all"],
-  //   number: "d5"
-  // },
   {
     name: {
-      "zh-tw": "草莓杏仁凍",
-      "en": "Strawberry Almond Jelly"
+      "zh-tw": "杏仁凍",
+      "en": "Almond Jelly"
     },
     price: p10,
     description: {
-      "zh-tw": "以草莓粉與杏仁粉製作的手工杏仁凍，口感滑嫩清爽，帶有草莓香甜與杏仁濃郁風味，是餐後清爽甜點。",
-      "en": "Handmade jelly made with strawberry powder and almond powder, smooth and refreshing, with the sweet aroma of strawberries and the rich flavor of almonds — a light dessert to finish your meal."
+      "zh-tw": "以杏仁粉製作，這款手工杏仁凍口感滑嫩清爽，杏仁香氣濃郁，是餐後完美的輕甜點。",
+      "en": "Made from almond powder, this handmade almond jelly is smooth, refreshing, and rich in almond aroma — a perfect light dessert to finish your meal."
+    },
+    detail:{
+      "zh-tw": "",
+      "en": "" 
     },
     alt: {
-      "zh-tw": "草莓杏仁凍",
-      "en": "Strawberry Almond Jelly"
+      "zh-tw": "杏仁凍",
+      "en": "Almond Jelly"
     },
-    img: "assets/img/menu/dessert/avif/strawberry-almond-jelly.avif",
+    img: "assets/img/menu/dessert/avif/almond-jelly.avif",
     filter: "filter-dessert",
-  
     onclick: "",
     categories: ["dessert", "all"],
-    number: "d6"
+    number: "d5"
   },
+//  {
+//    name: {
+//      "zh-tw": "草莓杏仁凍",
+//      "en": "Strawberry Almond Jelly"
+//    },
+//    price: p10,
+//    description: {
+//      "zh-tw": "以草莓粉與杏仁粉製作的手工杏仁凍，口感滑嫩清爽，帶有草莓香甜與杏仁濃郁風味，是餐後清爽甜點。",
+//      "en": "Handmade jelly made with strawberry powder and almond powder, smooth and refreshing, with the sweet aroma of strawberries and the rich flavor of almonds — a light dessert to finish your meal."
+//    },
+//    alt: {
+//      "zh-tw": "草莓杏仁凍",
+//      "en": "Strawberry Almond Jelly"
+//    },
+//    img: "assets/img/menu/dessert/avif/strawberry-almond-jelly.avif",
+//    filter: "filter-dessert",
+//    onclick: "",
+//    categories: ["dessert", "all"],
+//    number: "d6"
+//  },
   {
     name: {
       "zh-tw": "經濟四菜一湯",
@@ -2340,6 +2339,7 @@ const menuItems = [
   },
 
 ];
+
 
 
 
