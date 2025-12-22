@@ -391,7 +391,7 @@ const menuItems = [
       "zh-tw": "蟹肉燴絲瓜",
       "en": "Stir-Fried Loofah with Crab Meat"
     },
-    price: p350,
+    price: p400,
     description: {
       "zh-tw": "新鮮蟹肉與絲瓜快炒，保留海味與蔬菜鮮甜，口感滑嫩清爽，是下飯與宴客的佳餚。",
       "en": "Fresh crab meat stir-fried with loofah, preserving the briny seafood essence and the vegetable’s natural sweetness. Smooth, refreshing, and perfect both with rice or as a dish for gatherings."
@@ -415,7 +415,7 @@ const menuItems = [
       "zh-tw": "蝦仁燴絲瓜",
       "en": "Stir-Fried Loofah with Shrimp"
     },
-    price: p350,
+    price: p400,
     description: {
       "zh-tw": "新鮮蝦仁與絲瓜快炒，保留海味與蔬菜鮮甜，口感滑嫩清爽，是下飯與宴客的佳餚。",
       "en": "Fresh shrimp stir-fried with loofah, preserving the delicate seafood flavor and the vegetable’s natural sweetness. Smooth, refreshing, and perfect both with rice or as a dish for gatherings"
@@ -463,10 +463,7 @@ const menuItems = [
       "zh-tw": "芹菜燴蟹肉",
       "en": "Stir-Fried Crab Meat with Celery"
     },
-    price: {
-      "zh-tw": "350元",
-      "en": "NT$350"
-    },
+    price: p400,
     description: {
       "zh-tw": "新鮮蟹肉與芹菜快炒，保留海味與蔬菜鮮甜，口感滑嫩清爽，是下飯與宴客的佳餚。",
       "en": "Fresh crab meat stir-fried with crisp celery, preserving the natural ocean flavor and vegetable sweetness. Smooth and refreshing in texture, it’s a delightful dish perfect with rice or for gatherings."
@@ -2343,6 +2340,7 @@ const menuItems = [
   },
 
 ];
+
 
 
 
