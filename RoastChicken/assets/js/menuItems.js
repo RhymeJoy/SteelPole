@@ -1427,7 +1427,7 @@ const menuItems = [
     img: "",
     filter: "filter-dish",
     onclick: "",
-    categorstaple: ["dish", "all"],
+    categories: ["dish", "all"],
     number: "56"
   },
   {
@@ -2339,6 +2339,7 @@ const menuItems = [
   },
 
 ];
+
 
 
 
