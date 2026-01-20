@@ -72,6 +72,20 @@ const p800 = {
   "zh-tw": "800元",
   "en": "NT$800"
 };
+
+const v4  = { "zh-tw": "1350元", "en": "NT$1,350" };
+const v5  = { "zh-tw": "1800元", "en": "NT$1,800" };
+const v6  = { "zh-tw": "2300元", "en": "NT$2,300" };
+const v7  = { "zh-tw": "2450元", "en": "NT$2,450" };
+const v8  = { "zh-tw": "2750元", "en": "NT$2,750" };
+const v9  = { "zh-tw": "2950元", "en": "NT$2,950" };
+const v10 = { "zh-tw": "3300元", "en": "NT$3,300" };
+const v11 = { "zh-tw": "3650元", "en": "NT$3,650" };
+const v12 = { "zh-tw": "3850元", "en": "NT$3,850" };
+
+const d6  = { "zh-tw": "3200元", "en": "NT$3,200" };
+const d12 = { "zh-tw": "5300元", "en": "NT$5,300" };
+
 // 範例菜單資料
 const menuItems = [
   {
@@ -2051,10 +2065,7 @@ const menuItems = [
       "zh-tw": "經濟四菜一湯",
       "en": "Value Set: Four Dishes with One Soup"
     },
-    price: {
-      "zh-tw": "1350元",
-      "en": "NT$1350"
-    },
+    price: v4,
     description: {
       "zh-tw": "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蘿蔔排骨湯",
       "en": "Roasted Steel-Pole Chicken, Stir-Fried Wild Spiny Stems, Stir-Fried Chicken Tendons with Tomatoes, Japanese-Style Peanut Tofu with Savory Sauce, Radish and Pork Rib Soup"
@@ -2078,10 +2089,7 @@ const menuItems = [
       "zh-tw": "經濟五菜一湯",
       "en": "Value Set: Five Dishes with One Soup"
     },
-    price: {
-      "zh-tw": "1800元",
-      "en": "NT$1800"
-    },
+    price: v5,
     description: {
       "zh-tw": "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、蘿蔔排骨湯",
       "en": "Roasted Steel-Pole Chicken, Stir-Fried Wild Spiny Stems, Stir-Fried Chicken Tendons with Tomatoes, Japanese-Style Peanut Tofu with Savory Sauce, Steamed Fish, Radish and Pork Rib Soup"
@@ -2102,10 +2110,7 @@ const menuItems = [
       "zh-tw": "經濟六菜一湯",
       "en": "Value Set: Six Dishes with One Soup"
     },
-    price: {
-      "zh-tw": "2300元",
-      "en": "NT$2300"
-    },
+    price: v6,
     description: {
       "zh-tw": "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蘿蔔排骨湯",
       "en": "Roasted Steel-Pole Chicken, Stir-Fried Wild Spiny Stems, Stir-Fried Chicken Tendons with Tomatoes, Japanese-Style Peanut Tofu with Savory Sauce, Steamed Fish, Dongpo Pork, Radish and Pork Rib Soup"
@@ -2129,10 +2134,7 @@ const menuItems = [
       "zh-tw": "經濟七菜一湯",
       "en": "Value Set: Seven Dishes with One Soup"
     },
-    price: {
-      "zh-tw": "2450元",
-      "en": "NT$2450"
-    },
+    price: v7,
     description: {
       "zh-tw": "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蟹肉沙拉、蘿蔔排骨湯",
       "en": "Roasted Steel-Pole Chicken, Stir-Fried Wild Spiny Stems, Stir-Fried Chicken Tendons with Tomatoes, Japanese-Style Peanut Tofu with Savory Sauce, Steamed Fish, Dongpo Pork, Crab Meat Salad, Radish and Pork Rib Soup"
@@ -2156,10 +2158,7 @@ const menuItems = [
       "zh-tw": "經濟八菜一湯",
       "en": "Value Set: Eight Dishes with One Soup"
     },
-    price: {
-      "zh-tw": "2750元",
-      "en": "NT$2750"
-    },
+    price: v8,
     description: {
       "zh-tw": "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蟹肉沙拉、山藥雙拼、蘿蔔排骨湯",
       "en": "Roasted Steel-Pole Chicken, Stir-Fried Wild Spiny Stems, Stir-Fried Chicken Tendons with Tomatoes, Japanese-Style Peanut Tofu with Savory Sauce, Steamed Fish, Dongpo Pork, Crab Meat Salad, Yam & Mochi Duo, Radish and Pork Rib Soup"
@@ -2183,10 +2182,7 @@ const menuItems = [
       "zh-tw": "經濟九菜一湯",
       "en": "Value Set: Nine Dishes with One Soup"
     },
-    price: {
-      "zh-tw": "2950元",
-      "en": "NT$2950"
-    },
+    price: v9,
     description: {
       "zh-tw": "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蟹肉沙拉、山藥雙拼、薑絲大腸、蘿蔔排骨湯",
       "en": "Roasted Steel-Pole Chicken, Stir-Fried Wild Spiny Stems, Stir-Fried Chicken Tendons with Tomatoes, Japanese-Style Peanut Tofu with Savory Sauce, Steamed Fish, Dongpo Pork, Crab Meat Salad, Yam & Mochi Duo, Stir-Fried Pork Intestines with Ginger, Radish and Pork Rib Soup"
@@ -2207,10 +2203,7 @@ const menuItems = [
       "zh-tw": "經濟十菜一湯",
       "en": "Value Set: Ten Dishes with One Soup"
     },
-    price: {
-      "zh-tw": "3300元",
-      "en": "NT$3300"
-    },
+    price: v10,
     description: {
       "zh-tw": "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蟹肉沙拉、山藥雙拼、薑絲大腸、甜豆燴蝦仁、蘿蔔排骨湯",
       "en": "Roasted Steel-Pole Chicken, Stir-Fried Wild Spiny Stems, Stir-Fried Chicken Tendons with Tomatoes, Japanese-Style Peanut Tofu with Savory Sauce, Steamed Fish, Dongpo Pork, Crab Meat Salad, Yam & Mochi Duo, Stir-Fried Pork Intestines with Ginger, Stir-Fried Shrimp with Sweet Peas, Radish and Pork Rib Soup"
@@ -2234,10 +2227,7 @@ const menuItems = [
       "zh-tw": "經濟十一菜一湯",
       "en": "Value Set: Eleven Dishes with One Soup"
     },
-    price: {
-      "zh-tw": "3650元",
-      "en": "NT$3650"
-    },
+    price: v11,
     description: {
       "zh-tw": "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蟹肉沙拉、山藥雙拼、薑絲大腸、甜豆燴蝦仁、清炒白蝦、蘿蔔排骨湯",
       "en": "Roasted Steel-Pole Chicken, Stir-Fried Wild Spiny Stems, Stir-Fried Chicken Tendons with Tomatoes, Japanese-Style Peanut Tofu with Savory Sauce, Steamed Fish, Dongpo Pork, Crab Meat Salad, Yam & Mochi Duo, Stir-Fried Pork Intestines with Ginger, Stir-Fried Shrimp with Sweet Peas, Stir-Fried White Shrimp, Radish and Pork Rib Soup"
@@ -2261,10 +2251,7 @@ const menuItems = [
       "zh-tw": "經濟十二菜一湯",
       "en": "Value Set: Twelve Dishes with One Soup"
     },
-    price: {
-      "zh-tw": "3850元",
-      "en": "NT$3850"
-    },
+    price: v12,
     description: {
       "zh-tw": "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蟹肉沙拉、山藥雙拼、薑絲大腸、甜豆燴蝦仁、清炒白蝦、蛤蠣炒絲瓜、蘿蔔排骨湯",
       "en": "Roasted Steel-Pole Chicken, Stir-Fried Wild Spiny Stems, Stir-Fried Chicken Tendons with Tomatoes, Japanese-Style Peanut Tofu with Savory Sauce, Steamed Fish, Dongpo Pork, Crab Meat Salad, Yam & Mochi Duo, Stir-Fried Pork Intestines with Ginger, Stir-Fried Shrimp with Sweet Peas, Stir-Fried White Shrimp, Stir-Fried Loofah with Clams, Radish and Pork Rib Soup"
@@ -2288,10 +2275,7 @@ const menuItems = [
       "zh-tw": "團體六菜一湯",
       "en": "Deluxe Set: Six Dishes with One Soup"
     },
-    price: {
-      "zh-tw": "3200元",
-      "en": "NT$3200"
-    },
+    price: d6,
     description: {
       "zh-tw": "鋼管雞、蒸(糖醋黃)魚、東坡肉、櫻花蝦高麗菜、半天筍花燴蟹肉、魚翅羹、山藥南瓜排骨湯",
       "en": "Roasted Steel-Pole Chicken, (Steamed Fish / Sweet and Sour Crispy Yellow Croaker), Dongpo Pork, Stir-Fried Cabbage with Sakura Shrimp, Stir-Fried Crab Meat with Betel Palm Heart, Shark Fin Broth, Pork Rib Soup with Yam and Pumpkin"
@@ -2315,10 +2299,7 @@ const menuItems = [
       "zh-tw": "團體十二菜一湯",
       "en": "Deluxe Set: Twelve Dishes with One Soup"
     },
-    price: {
-      "zh-tw": "5300元",
-      "en": "NT$5300"
-    },
+    price: d12,
     description: {
       "zh-tw": "鋼管雞、蒸(糖醋黃)魚、山藥雙拼、蟹肉沙拉、日本扇貝、清炒白蝦、清炒鴕鳥肉、甜豆燴蝦仁、東坡肉、櫻花蝦高麗菜、半天筍花燴蟹肉、魚翅羹、山藥南瓜排骨湯",
       "en": "Roasted Steel-Pole Chicken, (Steamed Fish / Sweet and Sour Crispy Yellow Croaker), Yam & Mochi Duo, Crab Meat Salad, Japanese Scallops, Stir-Fried White Shrimp, Stir-Fried Bok Choy with Ostrich Meat, Stir-Fried Shrimp with Sweet Peas, Dongpo Pork, Stir-Fried Cabbage with Sakura Shrimp, Stir-Fried Crab Meat with Betel Palm Heart, Shark Fin Broth, Pork Rib Soup with Yam and Pumpkin"
@@ -2339,6 +2320,7 @@ const menuItems = [
   },
 
 ];
+
 
 
 
