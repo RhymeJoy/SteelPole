@@ -73,7 +73,7 @@ const p800 = {
   "en": "NT$800"
 };
 
-const v4  = { "zh-tw": "1350元", "en": "NT$1,350" };
+const v4  = { "zh-tw": v4p+"元", "en": "NT$"+v4p };
 const v5  = { "zh-tw": "1800元", "en": "NT$1,800" };
 const v6  = { "zh-tw": "2300元", "en": "NT$2,300" };
 const v7  = { "zh-tw": "2450元", "en": "NT$2,450" };
@@ -85,6 +85,8 @@ const v12 = { "zh-tw": "3850元", "en": "NT$3,850" };
 
 const d6  = { "zh-tw": "3200元", "en": "NT$3,200" };
 const d12 = { "zh-tw": "5300元", "en": "NT$5,300" };
+
+const v4p = "1,350"
 
 // 範例菜單資料
 const menuItems = [
@@ -2320,6 +2322,7 @@ const menuItems = [
   },
 
 ];
+
 
 
 
