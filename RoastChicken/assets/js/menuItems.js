@@ -2079,8 +2079,8 @@ const menuItems = [
       "en": "Value Set: Five Dishes with One Soup"
     },
     price: {
-      "zh-tw": "1650元",
-      "en": "NT$1650"
+      "zh-tw": "1800元",
+      "en": "NT$1800"
     },
     description: {
       "zh-tw": "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、蘿蔔排骨湯",
@@ -2103,8 +2103,8 @@ const menuItems = [
       "en": "Value Set: Six Dishes with One Soup"
     },
     price: {
-      "zh-tw": "1900元",
-      "en": "NT$1900"
+      "zh-tw": "2300元",
+      "en": "NT$2300"
     },
     description: {
       "zh-tw": "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蘿蔔排骨湯",
@@ -2130,8 +2130,8 @@ const menuItems = [
       "en": "Value Set: Seven Dishes with One Soup"
     },
     price: {
-      "zh-tw": "2100元",
-      "en": "NT$2100"
+      "zh-tw": "2450元",
+      "en": "NT$2450"
     },
     description: {
       "zh-tw": "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蟹肉沙拉、蘿蔔排骨湯",
@@ -2157,8 +2157,8 @@ const menuItems = [
       "en": "Value Set: Eight Dishes with One Soup"
     },
     price: {
-      "zh-tw": "2400元",
-      "en": "NT$2400"
+      "zh-tw": "2750元",
+      "en": "NT$2750"
     },
     description: {
       "zh-tw": "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蟹肉沙拉、山藥雙拼、蘿蔔排骨湯",
@@ -2184,8 +2184,8 @@ const menuItems = [
       "en": "Value Set: Nine Dishes with One Soup"
     },
     price: {
-      "zh-tw": "2600元",
-      "en": "NT$2600"
+      "zh-tw": "2950元",
+      "en": "NT$2950"
     },
     description: {
       "zh-tw": "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蟹肉沙拉、山藥雙拼、薑絲大腸、蘿蔔排骨湯",
@@ -2208,8 +2208,8 @@ const menuItems = [
       "en": "Value Set: Ten Dishes with One Soup"
     },
     price: {
-      "zh-tw": "2800元",
-      "en": "NT$2800"
+      "zh-tw": "3300元",
+      "en": "NT$3300"
     },
     description: {
       "zh-tw": "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蟹肉沙拉、山藥雙拼、薑絲大腸、甜豆燴蝦仁、蘿蔔排骨湯",
@@ -2235,8 +2235,8 @@ const menuItems = [
       "en": "Value Set: Eleven Dishes with One Soup"
     },
     price: {
-      "zh-tw": "3100元",
-      "en": "NT$3100"
+      "zh-tw": "3650元",
+      "en": "NT$3650"
     },
     description: {
       "zh-tw": "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蟹肉沙拉、山藥雙拼、薑絲大腸、甜豆燴蝦仁、清炒白蝦、蘿蔔排骨湯",
@@ -2262,8 +2262,8 @@ const menuItems = [
       "en": "Value Set: Twelve Dishes with One Soup"
     },
     price: {
-      "zh-tw": "3300元",
-      "en": "NT$3300"
+      "zh-tw": "3850元",
+      "en": "NT$3850"
     },
     description: {
       "zh-tw": "鋼管雞、翅杏仔骨、腱炒番茄、和風脆豆腐、蒸魚、東坡肉、蟹肉沙拉、山藥雙拼、薑絲大腸、甜豆燴蝦仁、清炒白蝦、蛤蠣炒絲瓜、蘿蔔排骨湯",
@@ -2339,6 +2339,7 @@ const menuItems = [
   },
 
 ];
+
 
 
 
