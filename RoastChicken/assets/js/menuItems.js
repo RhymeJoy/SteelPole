@@ -73,20 +73,31 @@ const p800 = {
   "en": "NT$800"
 };
 
-const v4p = "1,350"
+const v4p  = "1,350";
+const v5p  = "1,800";
+const v6p  = "2,300";
+const v7p  = "2,450";
+const v8p  = "2,750";
+const v9p  = "2,950";
+const v10p = "3,300";
+const v11p = "3,650";
+const v12p = "3,850";
 
-const v4  = { "zh-tw": v4p+"元", "en": "NT$"+v4p };
-const v5  = { "zh-tw": "1800元", "en": "NT$1,800" };
-const v6  = { "zh-tw": "2300元", "en": "NT$2,300" };
-const v7  = { "zh-tw": "2450元", "en": "NT$2,450" };
-const v8  = { "zh-tw": "2750元", "en": "NT$2,750" };
-const v9  = { "zh-tw": "2950元", "en": "NT$2,950" };
-const v10 = { "zh-tw": "3300元", "en": "NT$3,300" };
-const v11 = { "zh-tw": "3650元", "en": "NT$3,650" };
-const v12 = { "zh-tw": "3850元", "en": "NT$3,850" };
+const d6p  = "3,200";
+const d12p = "5,300";
 
-const d6  = { "zh-tw": "3200元", "en": "NT$3,200" };
-const d12 = { "zh-tw": "5300元", "en": "NT$5,300" };
+const v4  = { "zh-tw": v4p  + "元", "en": "NT$" + v4p  };
+const v5  = { "zh-tw": v5p  + "元", "en": "NT$" + v5p  };
+const v6  = { "zh-tw": v6p  + "元", "en": "NT$" + v6p  };
+const v7  = { "zh-tw": v7p  + "元", "en": "NT$" + v7p  };
+const v8  = { "zh-tw": v8p  + "元", "en": "NT$" + v8p  };
+const v9  = { "zh-tw": v9p  + "元", "en": "NT$" + v9p  };
+const v10 = { "zh-tw": v10p + "元", "en": "NT$" + v10p };
+const v11 = { "zh-tw": v11p + "元", "en": "NT$" + v11p };
+const v12 = { "zh-tw": v12p + "元", "en": "NT$" + v12p };
+
+const d6  = { "zh-tw": d6p  + "元", "en": "NT$" + d6p  };
+const d12 = { "zh-tw": d12p + "元", "en": "NT$" + d12p };
 
 // 範例菜單資料
 const menuItems = [
@@ -2322,6 +2333,7 @@ const menuItems = [
   },
 
 ];
+
 
 
 
